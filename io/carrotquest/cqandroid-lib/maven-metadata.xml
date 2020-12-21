@@ -5,15 +5,11 @@
   <versioning>
     <release>1.0.23-usRelease</release>
     <versions>
-      <version>1.0.21-commonDebug</version>
-      <version>1.0.21-commonRelease</version>
-      <version>1.0.21-usDebug</version>
-      <version>1.0.21-usRelease</version>
       <version>1.0.23-commonDebug</version>
       <version>1.0.23-commonRelease</version>
       <version>1.0.23-usDebug</version>
       <version>1.0.23-usRelease</version>
     </versions>
-    <lastUpdated>20201221052629</lastUpdated>
+    <lastUpdated>20201221063818</lastUpdated>
   </versioning>
 </metadata>
