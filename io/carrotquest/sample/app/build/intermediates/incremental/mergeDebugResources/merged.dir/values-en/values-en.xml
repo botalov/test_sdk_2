@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name_image_picker">ImagePicker</string>
+    <string name="empty_files_message">There\'s nothing here</string>
+    <string name="empty_gallery_message">You don\'t have any photos yet</string>
+    <string name="error_cancel_button">Cancel</string>
+    <string name="error_file_size_message">Files up to %1$d MB are allowed. Choose another file.</string>
+    <string name="error_file_size_title">The file is too large</string>
+    <string name="error_image_size_message">Images up to %1$d MB are allowed. Choose another image.</string>
+    <string name="error_image_size_title">The image is too large</string>
+    <string name="files_str">File</string>
+    <string name="folder_is_empty_message">The %1$s folder is empty. Select another folder.</string>
+    <string name="folder_is_empty_title">There\'s nothing here</string>
+    <string name="folder_str">Folder</string>
+    <string name="images_str">Gallery</string>
+    <string name="incorrect_file_type_message">You can upload %1$s files</string>
+    <string name="incorrect_file_type_title">Unacceptable file format</string>
+    <string name="permissions_button_text_str">Allow access</string>
+    <string name="permissions_subtitle_str">To send images and files from your device, allow the application an access to them</string>
+    <string name="permissions_title_str">Allow access to the device memory</string>
+</resources>

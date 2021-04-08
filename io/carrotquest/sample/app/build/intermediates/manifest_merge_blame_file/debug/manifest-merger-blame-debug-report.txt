@@ -1,0 +1,476 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="io.carrotquest.sample"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="16"
+8-->/home/botalov/StudioProjects/sample_cqsdk/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="28" />
+9-->/home/botalov/StudioProjects/sample_cqsdk/app/src/main/AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->/home/botalov/StudioProjects/sample_cqsdk/app/src/main/AndroidManifest.xml:5:5-66
+11-->/home/botalov/StudioProjects/sample_cqsdk/app/src/main/AndroidManifest.xml:5:22-64
+12    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+12-->[io.carrotquest:android-sdk:1.0.34-commonRelease] /home/botalov/.gradle/caches/transforms-2/files-2.1/62763259b1b4f1ecb2020da484872291/jetified-android-sdk-1.0.34-commonRelease/AndroidManifest.xml:13:5-82
+12-->[io.carrotquest:android-sdk:1.0.34-commonRelease] /home/botalov/.gradle/caches/transforms-2/files-2.1/62763259b1b4f1ecb2020da484872291/jetified-android-sdk-1.0.34-commonRelease/AndroidManifest.xml:13:22-79
+13    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+13-->[io.carrotquest:android-sdk:1.0.34-commonRelease] /home/botalov/.gradle/caches/transforms-2/files-2.1/62763259b1b4f1ecb2020da484872291/jetified-android-sdk-1.0.34-commonRelease/AndroidManifest.xml:14:5-80
+13-->[io.carrotquest:android-sdk:1.0.34-commonRelease] /home/botalov/.gradle/caches/transforms-2/files-2.1/62763259b1b4f1ecb2020da484872291/jetified-android-sdk-1.0.34-commonRelease/AndroidManifest.xml:14:22-77
+14    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+14-->[io.carrotquest:android-sdk:1.0.34-commonRelease] /home/botalov/.gradle/caches/transforms-2/files-2.1/62763259b1b4f1ecb2020da484872291/jetified-android-sdk-1.0.34-commonRelease/AndroidManifest.xml:15:5-81
+14-->[io.carrotquest:android-sdk:1.0.34-commonRelease] /home/botalov/.gradle/caches/transforms-2/files-2.1/62763259b1b4f1ecb2020da484872291/jetified-android-sdk-1.0.34-commonRelease/AndroidManifest.xml:15:22-78
+15    <uses-permission android:name="android.permission.GET_TASKS" />
+15-->[io.carrotquest:android-sdk:1.0.34-commonRelease] /home/botalov/.gradle/caches/transforms-2/files-2.1/62763259b1b4f1ecb2020da484872291/jetified-android-sdk-1.0.34-commonRelease/AndroidManifest.xml:16:5-68
+15-->[io.carrotquest:android-sdk:1.0.34-commonRelease] /home/botalov/.gradle/caches/transforms-2/files-2.1/62763259b1b4f1ecb2020da484872291/jetified-android-sdk-1.0.34-commonRelease/AndroidManifest.xml:16:22-65
+16    <uses-permission android:name="android.permission.VIBRATE" />
+16-->[io.carrotquest:android-sdk:1.0.34-commonRelease] /home/botalov/.gradle/caches/transforms-2/files-2.1/62763259b1b4f1ecb2020da484872291/jetified-android-sdk-1.0.34-commonRelease/AndroidManifest.xml:17:5-66
+16-->[io.carrotquest:android-sdk:1.0.34-commonRelease] /home/botalov/.gradle/caches/transforms-2/files-2.1/62763259b1b4f1ecb2020da484872291/jetified-android-sdk-1.0.34-commonRelease/AndroidManifest.xml:17:22-63
+17    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+17-->[io.carrotquest:cqandroid-lib:1.0.27-commonRelease] /home/botalov/.gradle/caches/transforms-2/files-2.1/d8d4da499647c65081390242a0f03f61/jetified-cqandroid-lib-1.0.27-commonRelease/AndroidManifest.xml:12:5-79
+17-->[io.carrotquest:cqandroid-lib:1.0.27-commonRelease] /home/botalov/.gradle/caches/transforms-2/files-2.1/d8d4da499647c65081390242a0f03f61/jetified-cqandroid-lib-1.0.27-commonRelease/AndroidManifest.xml:12:22-76
+18    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+18-->[io.carrotquest:cqandroid-lib:1.0.27-commonRelease] /home/botalov/.gradle/caches/transforms-2/files-2.1/d8d4da499647c65081390242a0f03f61/jetified-cqandroid-lib-1.0.27-commonRelease/AndroidManifest.xml:13:5-76
+18-->[io.carrotquest:cqandroid-lib:1.0.27-commonRelease] /home/botalov/.gradle/caches/transforms-2/files-2.1/d8d4da499647c65081390242a0f03f61/jetified-cqandroid-lib-1.0.27-commonRelease/AndroidManifest.xml:13:22-73
+19    <uses-permission android:name="android.permission.CAMERA" />
+19-->[io.carrotquest:image-picker:1.0.7-commonRelease] /home/botalov/.gradle/caches/transforms-2/files-2.1/d999a1fc85b54886e64ae30b6c0fd352/jetified-image-picker-1.0.7-commonRelease/AndroidManifest.xml:12:5-65
+19-->[io.carrotquest:image-picker:1.0.7-commonRelease] /home/botalov/.gradle/caches/transforms-2/files-2.1/d999a1fc85b54886e64ae30b6c0fd352/jetified-image-picker-1.0.7-commonRelease/AndroidManifest.xml:12:22-62
+20    <uses-permission android:name="android.permission.WAKE_LOCK" />
+20-->[com.google.android.gms:play-services-measurement-api:16.5.0] /home/botalov/.gradle/caches/transforms-2/files-2.1/93729fe4814791cc6e6c4e557f5a9897/jetified-play-services-measurement-api-16.5.0/AndroidManifest.xml:24:5-68
+20-->[com.google.android.gms:play-services-measurement-api:16.5.0] /home/botalov/.gradle/caches/transforms-2/files-2.1/93729fe4814791cc6e6c4e557f5a9897/jetified-play-services-measurement-api-16.5.0/AndroidManifest.xml:24:22-65
+21    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
+21-->[com.google.android.gms:play-services-measurement:16.5.0] /home/botalov/.gradle/caches/transforms-2/files-2.1/17c14e4f08bed92595f5a0d8b51030c1/jetified-play-services-measurement-16.5.0/AndroidManifest.xml:26:5-110
+21-->[com.google.android.gms:play-services-measurement:16.5.0] /home/botalov/.gradle/caches/transforms-2/files-2.1/17c14e4f08bed92595f5a0d8b51030c1/jetified-play-services-measurement-16.5.0/AndroidManifest.xml:26:22-107
+22
+23    <application
+23-->/home/botalov/StudioProjects/sample_cqsdk/app/src/main/AndroidManifest.xml:7:5-44:19
+24        android:name="androidx.multidex.MultiDexApplication"
+25        android:allowBackup="true"
+25-->/home/botalov/StudioProjects/sample_cqsdk/app/src/main/AndroidManifest.xml:8:9-35
+26        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+26-->[androidx.core:core:1.3.2] /home/botalov/.gradle/caches/transforms-2/files-2.1/3414d4f8c6d2974484da138475b51c4f/core-1.3.2/AndroidManifest.xml:24:18-86
+27        android:debuggable="true"
+28        android:icon="@mipmap/ic_launcher"
+28-->/home/botalov/StudioProjects/sample_cqsdk/app/src/main/AndroidManifest.xml:9:9-43
+29        android:label="@string/app_name"
+29-->/home/botalov/StudioProjects/sample_cqsdk/app/src/main/AndroidManifest.xml:10:9-41
+30        android:roundIcon="@mipmap/ic_launcher_round"
+30-->/home/botalov/StudioProjects/sample_cqsdk/app/src/main/AndroidManifest.xml:11:9-54
+31        android:supportsRtl="true"
+31-->/home/botalov/StudioProjects/sample_cqsdk/app/src/main/AndroidManifest.xml:12:9-35
+32        android:testOnly="true"
+33        android:theme="@style/AppTheme"
+33-->/home/botalov/StudioProjects/sample_cqsdk/app/src/main/AndroidManifest.xml:13:9-40
+34        android:usesCleartextTraffic="true" >
+34-->[io.carrotquest:android-sdk:1.0.34-commonRelease] /home/botalov/.gradle/caches/transforms-2/files-2.1/62763259b1b4f1ecb2020da484872291/jetified-android-sdk-1.0.34-commonRelease/AndroidManifest.xml:20:9-44
+35        <activity
+35-->/home/botalov/StudioProjects/sample_cqsdk/app/src/main/AndroidManifest.xml:14:9-22:20
+36            android:name="io.carrotquest.sample.start.view.StartActivity"
+36-->/home/botalov/StudioProjects/sample_cqsdk/app/src/main/AndroidManifest.xml:14:19-59
+37            android:theme="@style/Theme.AppCompat.Light.NoActionBar" >
+37-->/home/botalov/StudioProjects/sample_cqsdk/app/src/main/AndroidManifest.xml:15:13-69
+38            <intent-filter>
+38-->/home/botalov/StudioProjects/sample_cqsdk/app/src/main/AndroidManifest.xml:17:13-21:29
+39                <action android:name="android.intent.action.MAIN" />
+39-->/home/botalov/StudioProjects/sample_cqsdk/app/src/main/AndroidManifest.xml:18:17-69
+39-->/home/botalov/StudioProjects/sample_cqsdk/app/src/main/AndroidManifest.xml:18:25-66
+40
+41                <category android:name="android.intent.category.LAUNCHER" />
+41-->/home/botalov/StudioProjects/sample_cqsdk/app/src/main/AndroidManifest.xml:20:17-77
+41-->/home/botalov/StudioProjects/sample_cqsdk/app/src/main/AndroidManifest.xml:20:27-74
+42            </intent-filter>
+43        </activity>
+44        <activity
+44-->/home/botalov/StudioProjects/sample_cqsdk/app/src/main/AndroidManifest.xml:23:9-25:15
+45            android:name="io.carrotquest.sample.main.view.MainActivity"
+45-->/home/botalov/StudioProjects/sample_cqsdk/app/src/main/AndroidManifest.xml:23:19-57
+46            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+46-->/home/botalov/StudioProjects/sample_cqsdk/app/src/main/AndroidManifest.xml:24:13-69
+47        <activity
+47-->/home/botalov/StudioProjects/sample_cqsdk/app/src/main/AndroidManifest.xml:26:9-29:15
+48            android:name="io.carrotquest.sample.input_data.view.InputDataActivity"
+48-->/home/botalov/StudioProjects/sample_cqsdk/app/src/main/AndroidManifest.xml:26:19-68
+49            android:theme="@style/Theme.AppCompat.Light.NoActionBar"
+49-->/home/botalov/StudioProjects/sample_cqsdk/app/src/main/AndroidManifest.xml:28:13-69
+50            android:windowSoftInputMode="adjustResize" />
+50-->/home/botalov/StudioProjects/sample_cqsdk/app/src/main/AndroidManifest.xml:27:13-55
+51        <activity
+51-->/home/botalov/StudioProjects/sample_cqsdk/app/src/main/AndroidManifest.xml:30:9-32:15
+52            android:name="io.carrotquest.sample.product.view.ProductActivity"
+52-->/home/botalov/StudioProjects/sample_cqsdk/app/src/main/AndroidManifest.xml:30:19-63
+53            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+53-->/home/botalov/StudioProjects/sample_cqsdk/app/src/main/AndroidManifest.xml:31:13-69
+54        <activity
+54-->/home/botalov/StudioProjects/sample_cqsdk/app/src/main/AndroidManifest.xml:33:9-35:15
+55            android:name="io.carrotquest.sample.cart.view.CartActivity"
+55-->/home/botalov/StudioProjects/sample_cqsdk/app/src/main/AndroidManifest.xml:33:19-57
+56            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+56-->/home/botalov/StudioProjects/sample_cqsdk/app/src/main/AndroidManifest.xml:34:13-69
+57
+58        <service
+58-->/home/botalov/StudioProjects/sample_cqsdk/app/src/main/AndroidManifest.xml:38:9-43:19
+59            android:name="io.carrotquest.sample.service.MyFirebaseMessagingService"
+59-->/home/botalov/StudioProjects/sample_cqsdk/app/src/main/AndroidManifest.xml:38:18-68
+60            android:exported="false" >
+60-->/home/botalov/StudioProjects/sample_cqsdk/app/src/main/AndroidManifest.xml:39:13-37
+61            <intent-filter>
+61-->/home/botalov/StudioProjects/sample_cqsdk/app/src/main/AndroidManifest.xml:40:13-42:29
+62                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+62-->/home/botalov/StudioProjects/sample_cqsdk/app/src/main/AndroidManifest.xml:41:17-78
+62-->/home/botalov/StudioProjects/sample_cqsdk/app/src/main/AndroidManifest.xml:41:25-75
+63            </intent-filter>
+64        </service>
+65        <!--
+66            <meta-data
+67            android:name="io.sentry.dsn" android:value="https://03dfe81a4f434f11b3c54d94c88b4bfb@sentry.io/1463162" />
+68        -->
+69        <meta-data
+69-->[io.carrotquest:android-sdk:1.0.34-commonRelease] /home/botalov/.gradle/caches/transforms-2/files-2.1/62763259b1b4f1ecb2020da484872291/jetified-android-sdk-1.0.34-commonRelease/AndroidManifest.xml:27:9-29:37
+70            android:name="io.sentry.auto-init"
+70-->[io.carrotquest:android-sdk:1.0.34-commonRelease] /home/botalov/.gradle/caches/transforms-2/files-2.1/62763259b1b4f1ecb2020da484872291/jetified-android-sdk-1.0.34-commonRelease/AndroidManifest.xml:28:13-47
+71            android:value="false" />
+71-->[io.carrotquest:android-sdk:1.0.34-commonRelease] /home/botalov/.gradle/caches/transforms-2/files-2.1/62763259b1b4f1ecb2020da484872291/jetified-android-sdk-1.0.34-commonRelease/AndroidManifest.xml:29:13-34
+72        <meta-data
+72-->[io.carrotquest:android-sdk:1.0.34-commonRelease] /home/botalov/.gradle/caches/transforms-2/files-2.1/62763259b1b4f1ecb2020da484872291/jetified-android-sdk-1.0.34-commonRelease/AndroidManifest.xml:30:9-32:63
+73            android:name="com.google.firebase.messaging.default_notification_icon"
+73-->[io.carrotquest:android-sdk:1.0.34-commonRelease] /home/botalov/.gradle/caches/transforms-2/files-2.1/62763259b1b4f1ecb2020da484872291/jetified-android-sdk-1.0.34-commonRelease/AndroidManifest.xml:31:13-83
+74            android:resource="@drawable/ic_cq_notification" />
+74-->[io.carrotquest:android-sdk:1.0.34-commonRelease] /home/botalov/.gradle/caches/transforms-2/files-2.1/62763259b1b4f1ecb2020da484872291/jetified-android-sdk-1.0.34-commonRelease/AndroidManifest.xml:32:13-60
+75        <meta-data
+75-->[io.carrotquest:android-sdk:1.0.34-commonRelease] /home/botalov/.gradle/caches/transforms-2/files-2.1/62763259b1b4f1ecb2020da484872291/jetified-android-sdk-1.0.34-commonRelease/AndroidManifest.xml:33:9-35:55
+76            android:name="com.google.firebase.messaging.default_notification_color"
+76-->[io.carrotquest:android-sdk:1.0.34-commonRelease] /home/botalov/.gradle/caches/transforms-2/files-2.1/62763259b1b4f1ecb2020da484872291/jetified-android-sdk-1.0.34-commonRelease/AndroidManifest.xml:34:13-84
+77            android:resource="@color/colorCqNotify" />
+77-->[io.carrotquest:android-sdk:1.0.34-commonRelease] /home/botalov/.gradle/caches/transforms-2/files-2.1/62763259b1b4f1ecb2020da484872291/jetified-android-sdk-1.0.34-commonRelease/AndroidManifest.xml:35:13-52
+78
+79        <receiver
+79-->[io.carrotquest:android-sdk:1.0.34-commonRelease] /home/botalov/.gradle/caches/transforms-2/files-2.1/62763259b1b4f1ecb2020da484872291/jetified-android-sdk-1.0.34-commonRelease/AndroidManifest.xml:37:9-44:20
+80            android:name="io.carrotquest_sdk.android.core.utm.InstallReferrerReceiver"
+80-->[io.carrotquest:android-sdk:1.0.34-commonRelease] /home/botalov/.gradle/caches/transforms-2/files-2.1/62763259b1b4f1ecb2020da484872291/jetified-android-sdk-1.0.34-commonRelease/AndroidManifest.xml:38:13-87
+81            android:enabled="true"
+81-->[io.carrotquest:android-sdk:1.0.34-commonRelease] /home/botalov/.gradle/caches/transforms-2/files-2.1/62763259b1b4f1ecb2020da484872291/jetified-android-sdk-1.0.34-commonRelease/AndroidManifest.xml:39:13-35
+82            android:exported="true" >
+82-->[io.carrotquest:android-sdk:1.0.34-commonRelease] /home/botalov/.gradle/caches/transforms-2/files-2.1/62763259b1b4f1ecb2020da484872291/jetified-android-sdk-1.0.34-commonRelease/AndroidManifest.xml:40:13-36
+83            <intent-filter>
+83-->[io.carrotquest:android-sdk:1.0.34-commonRelease] /home/botalov/.gradle/caches/transforms-2/files-2.1/62763259b1b4f1ecb2020da484872291/jetified-android-sdk-1.0.34-commonRelease/AndroidManifest.xml:41:13-43:29
+84                <action android:name="com.android.vending.INSTALL_REFERRER" />
+84-->[io.carrotquest:android-sdk:1.0.34-commonRelease] /home/botalov/.gradle/caches/transforms-2/files-2.1/62763259b1b4f1ecb2020da484872291/jetified-android-sdk-1.0.34-commonRelease/AndroidManifest.xml:42:17-79
+84-->[io.carrotquest:android-sdk:1.0.34-commonRelease] /home/botalov/.gradle/caches/transforms-2/files-2.1/62763259b1b4f1ecb2020da484872291/jetified-android-sdk-1.0.34-commonRelease/AndroidManifest.xml:42:25-76
+85            </intent-filter>
+86        </receiver>
+87
+88        <activity
+88-->[io.carrotquest:android-sdk:1.0.34-commonRelease] /home/botalov/.gradle/caches/transforms-2/files-2.1/62763259b1b4f1ecb2020da484872291/jetified-android-sdk-1.0.34-commonRelease/AndroidManifest.xml:46:9-50:70
+89            android:name="io.carrotquest_sdk.android.presentation.mvp.dialog.view.DialogActivity"
+89-->[io.carrotquest:android-sdk:1.0.34-commonRelease] /home/botalov/.gradle/caches/transforms-2/files-2.1/62763259b1b4f1ecb2020da484872291/jetified-android-sdk-1.0.34-commonRelease/AndroidManifest.xml:47:13-98
+90            android:configChanges="keyboardHidden|orientation|screenSize"
+90-->[io.carrotquest:android-sdk:1.0.34-commonRelease] /home/botalov/.gradle/caches/transforms-2/files-2.1/62763259b1b4f1ecb2020da484872291/jetified-android-sdk-1.0.34-commonRelease/AndroidManifest.xml:48:13-74
+91            android:theme="@style/Theme.Design.NoActionBar"
+91-->[io.carrotquest:android-sdk:1.0.34-commonRelease] /home/botalov/.gradle/caches/transforms-2/files-2.1/62763259b1b4f1ecb2020da484872291/jetified-android-sdk-1.0.34-commonRelease/AndroidManifest.xml:49:13-60
+92            android:windowSoftInputMode="stateHidden|adjustResize" />
+92-->[io.carrotquest:android-sdk:1.0.34-commonRelease] /home/botalov/.gradle/caches/transforms-2/files-2.1/62763259b1b4f1ecb2020da484872291/jetified-android-sdk-1.0.34-commonRelease/AndroidManifest.xml:50:13-67
+93        <activity
+93-->[io.carrotquest:android-sdk:1.0.34-commonRelease] /home/botalov/.gradle/caches/transforms-2/files-2.1/62763259b1b4f1ecb2020da484872291/jetified-android-sdk-1.0.34-commonRelease/AndroidManifest.xml:51:9-54:63
+94            android:name="io.carrotquest_sdk.android.presentation.mvp.list_dialogs.view.ListActivity"
+94-->[io.carrotquest:android-sdk:1.0.34-commonRelease] /home/botalov/.gradle/caches/transforms-2/files-2.1/62763259b1b4f1ecb2020da484872291/jetified-android-sdk-1.0.34-commonRelease/AndroidManifest.xml:52:13-102
+95            android:noHistory="true"
+95-->[io.carrotquest:android-sdk:1.0.34-commonRelease] /home/botalov/.gradle/caches/transforms-2/files-2.1/62763259b1b4f1ecb2020da484872291/jetified-android-sdk-1.0.34-commonRelease/AndroidManifest.xml:53:13-37
+96            android:theme="@style/Theme.Design.NoActionBar" />
+96-->[io.carrotquest:android-sdk:1.0.34-commonRelease] /home/botalov/.gradle/caches/transforms-2/files-2.1/62763259b1b4f1ecb2020da484872291/jetified-android-sdk-1.0.34-commonRelease/AndroidManifest.xml:54:13-60
+97        <activity
+97-->[io.carrotquest:android-sdk:1.0.34-commonRelease] /home/botalov/.gradle/caches/transforms-2/files-2.1/62763259b1b4f1ecb2020da484872291/jetified-android-sdk-1.0.34-commonRelease/AndroidManifest.xml:55:9-58:50
+98            android:name="io.carrotquest_sdk.android.presentation.mvp.bottom_sheets.NormalMessageBottomSheetSDKActivity"
+98-->[io.carrotquest:android-sdk:1.0.34-commonRelease] /home/botalov/.gradle/caches/transforms-2/files-2.1/62763259b1b4f1ecb2020da484872291/jetified-android-sdk-1.0.34-commonRelease/AndroidManifest.xml:56:13-121
+99            android:parentActivityName="io.carrotquest_sdk.android.presentation.mvp.dialog.view.DialogActivity"
+99-->[io.carrotquest:android-sdk:1.0.34-commonRelease] /home/botalov/.gradle/caches/transforms-2/files-2.1/62763259b1b4f1ecb2020da484872291/jetified-android-sdk-1.0.34-commonRelease/AndroidManifest.xml:57:13-112
+100            android:theme="@style/Translucent" />
+100-->[io.carrotquest:android-sdk:1.0.34-commonRelease] /home/botalov/.gradle/caches/transforms-2/files-2.1/62763259b1b4f1ecb2020da484872291/jetified-android-sdk-1.0.34-commonRelease/AndroidManifest.xml:58:13-47
+101        <activity
+101-->[io.carrotquest:android-sdk:1.0.34-commonRelease] /home/botalov/.gradle/caches/transforms-2/files-2.1/62763259b1b4f1ecb2020da484872291/jetified-android-sdk-1.0.34-commonRelease/AndroidManifest.xml:59:9-62:50
+102            android:name="io.carrotquest_sdk.android.presentation.mvp.bottom_sheets.ErrorSendingMessageBottomSheetSDKActivity"
+102-->[io.carrotquest:android-sdk:1.0.34-commonRelease] /home/botalov/.gradle/caches/transforms-2/files-2.1/62763259b1b4f1ecb2020da484872291/jetified-android-sdk-1.0.34-commonRelease/AndroidManifest.xml:60:13-127
+103            android:parentActivityName="io.carrotquest_sdk.android.presentation.mvp.dialog.view.DialogActivity"
+103-->[io.carrotquest:android-sdk:1.0.34-commonRelease] /home/botalov/.gradle/caches/transforms-2/files-2.1/62763259b1b4f1ecb2020da484872291/jetified-android-sdk-1.0.34-commonRelease/AndroidManifest.xml:61:13-112
+104            android:theme="@style/Translucent" />
+104-->[io.carrotquest:android-sdk:1.0.34-commonRelease] /home/botalov/.gradle/caches/transforms-2/files-2.1/62763259b1b4f1ecb2020da484872291/jetified-android-sdk-1.0.34-commonRelease/AndroidManifest.xml:62:13-47
+105        <activity
+105-->[io.carrotquest:android-sdk:1.0.34-commonRelease] /home/botalov/.gradle/caches/transforms-2/files-2.1/62763259b1b4f1ecb2020da484872291/jetified-android-sdk-1.0.34-commonRelease/AndroidManifest.xml:63:9-66:50
+106            android:name="io.carrotquest_sdk.android.presentation.mvp.calendly.view.CalendlyWidgetActivity"
+106-->[io.carrotquest:android-sdk:1.0.34-commonRelease] /home/botalov/.gradle/caches/transforms-2/files-2.1/62763259b1b4f1ecb2020da484872291/jetified-android-sdk-1.0.34-commonRelease/AndroidManifest.xml:64:13-108
+107            android:parentActivityName="io.carrotquest_sdk.android.presentation.mvp.dialog.view.DialogActivity"
+107-->[io.carrotquest:android-sdk:1.0.34-commonRelease] /home/botalov/.gradle/caches/transforms-2/files-2.1/62763259b1b4f1ecb2020da484872291/jetified-android-sdk-1.0.34-commonRelease/AndroidManifest.xml:65:13-112
+108            android:theme="@style/Translucent" />
+108-->[io.carrotquest:android-sdk:1.0.34-commonRelease] /home/botalov/.gradle/caches/transforms-2/files-2.1/62763259b1b4f1ecb2020da484872291/jetified-android-sdk-1.0.34-commonRelease/AndroidManifest.xml:66:13-47
+109        <activity
+109-->[io.carrotquest:android-sdk:1.0.34-commonRelease] /home/botalov/.gradle/caches/transforms-2/files-2.1/62763259b1b4f1ecb2020da484872291/jetified-android-sdk-1.0.34-commonRelease/AndroidManifest.xml:67:9-69:49
+110            android:name="io.carrotquest_sdk.android.presentation.mvp.popup.view.PopUpActivity"
+110-->[io.carrotquest:android-sdk:1.0.34-commonRelease] /home/botalov/.gradle/caches/transforms-2/files-2.1/62763259b1b4f1ecb2020da484872291/jetified-android-sdk-1.0.34-commonRelease/AndroidManifest.xml:68:13-96
+111            android:theme="@style/popUpStyle" />
+111-->[io.carrotquest:android-sdk:1.0.34-commonRelease] /home/botalov/.gradle/caches/transforms-2/files-2.1/62763259b1b4f1ecb2020da484872291/jetified-android-sdk-1.0.34-commonRelease/AndroidManifest.xml:69:13-46
+112
+113        <provider
+113-->[io.carrotquest:android-sdk:1.0.34-commonRelease] /home/botalov/.gradle/caches/transforms-2/files-2.1/62763259b1b4f1ecb2020da484872291/jetified-android-sdk-1.0.34-commonRelease/AndroidManifest.xml:71:9-79:20
+114            android:name="io.carrotquest_sdk.android.core.util.files.open_files.GenericFileProvider"
+114-->[io.carrotquest:android-sdk:1.0.34-commonRelease] /home/botalov/.gradle/caches/transforms-2/files-2.1/62763259b1b4f1ecb2020da484872291/jetified-android-sdk-1.0.34-commonRelease/AndroidManifest.xml:72:13-101
+115            android:authorities="io.carrotquest.sample.provider"
+115-->[io.carrotquest:android-sdk:1.0.34-commonRelease] /home/botalov/.gradle/caches/transforms-2/files-2.1/62763259b1b4f1ecb2020da484872291/jetified-android-sdk-1.0.34-commonRelease/AndroidManifest.xml:73:13-60
+116            android:exported="false"
+116-->[io.carrotquest:android-sdk:1.0.34-commonRelease] /home/botalov/.gradle/caches/transforms-2/files-2.1/62763259b1b4f1ecb2020da484872291/jetified-android-sdk-1.0.34-commonRelease/AndroidManifest.xml:74:13-37
+117            android:grantUriPermissions="true" >
+117-->[io.carrotquest:android-sdk:1.0.34-commonRelease] /home/botalov/.gradle/caches/transforms-2/files-2.1/62763259b1b4f1ecb2020da484872291/jetified-android-sdk-1.0.34-commonRelease/AndroidManifest.xml:75:13-47
+118            <meta-data
+118-->[io.carrotquest:android-sdk:1.0.34-commonRelease] /home/botalov/.gradle/caches/transforms-2/files-2.1/62763259b1b4f1ecb2020da484872291/jetified-android-sdk-1.0.34-commonRelease/AndroidManifest.xml:76:13-78:58
+119                android:name="android.support.FILE_PROVIDER_PATHS"
+119-->[io.carrotquest:android-sdk:1.0.34-commonRelease] /home/botalov/.gradle/caches/transforms-2/files-2.1/62763259b1b4f1ecb2020da484872291/jetified-android-sdk-1.0.34-commonRelease/AndroidManifest.xml:77:17-67
+120                android:resource="@xml/provider_paths" />
+120-->[io.carrotquest:android-sdk:1.0.34-commonRelease] /home/botalov/.gradle/caches/transforms-2/files-2.1/62763259b1b4f1ecb2020da484872291/jetified-android-sdk-1.0.34-commonRelease/AndroidManifest.xml:78:17-55
+121        </provider>
+122
+123        <service android:name="io.carrotquest_sdk.android.presentation.mvp.notifications.SdkFirebaseMessagingService" >
+123-->[io.carrotquest:android-sdk:1.0.34-commonRelease] /home/botalov/.gradle/caches/transforms-2/files-2.1/62763259b1b4f1ecb2020da484872291/jetified-android-sdk-1.0.34-commonRelease/AndroidManifest.xml:85:9-89:19
+123-->[io.carrotquest:android-sdk:1.0.34-commonRelease] /home/botalov/.gradle/caches/transforms-2/files-2.1/62763259b1b4f1ecb2020da484872291/jetified-android-sdk-1.0.34-commonRelease/AndroidManifest.xml:85:18-118
+124            <intent-filter>
+124-->/home/botalov/StudioProjects/sample_cqsdk/app/src/main/AndroidManifest.xml:40:13-42:29
+125                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+125-->/home/botalov/StudioProjects/sample_cqsdk/app/src/main/AndroidManifest.xml:41:17-78
+125-->/home/botalov/StudioProjects/sample_cqsdk/app/src/main/AndroidManifest.xml:41:25-75
+126            </intent-filter>
+127        </service>
+128
+129        <provider
+129-->[io.carrotquest:cqandroid-lib:1.0.27-commonRelease] /home/botalov/.gradle/caches/transforms-2/files-2.1/d8d4da499647c65081390242a0f03f61/jetified-cqandroid-lib-1.0.27-commonRelease/AndroidManifest.xml:18:9-26:20
+130            android:name="androidx.core.content.FileProvider"
+130-->[io.carrotquest:cqandroid-lib:1.0.27-commonRelease] /home/botalov/.gradle/caches/transforms-2/files-2.1/d8d4da499647c65081390242a0f03f61/jetified-cqandroid-lib-1.0.27-commonRelease/AndroidManifest.xml:19:13-62
+131            android:authorities="io.carrotquest.cqandroid_lib.provider"
+131-->[io.carrotquest:cqandroid-lib:1.0.27-commonRelease] /home/botalov/.gradle/caches/transforms-2/files-2.1/d8d4da499647c65081390242a0f03f61/jetified-cqandroid-lib-1.0.27-commonRelease/AndroidManifest.xml:20:13-72
+132            android:exported="false"
+132-->[io.carrotquest:cqandroid-lib:1.0.27-commonRelease] /home/botalov/.gradle/caches/transforms-2/files-2.1/d8d4da499647c65081390242a0f03f61/jetified-cqandroid-lib-1.0.27-commonRelease/AndroidManifest.xml:21:13-37
+133            android:grantUriPermissions="true" >
+133-->[io.carrotquest:cqandroid-lib:1.0.27-commonRelease] /home/botalov/.gradle/caches/transforms-2/files-2.1/d8d4da499647c65081390242a0f03f61/jetified-cqandroid-lib-1.0.27-commonRelease/AndroidManifest.xml:22:13-47
+134            <meta-data
+134-->[io.carrotquest:android-sdk:1.0.34-commonRelease] /home/botalov/.gradle/caches/transforms-2/files-2.1/62763259b1b4f1ecb2020da484872291/jetified-android-sdk-1.0.34-commonRelease/AndroidManifest.xml:76:13-78:58
+135                android:name="android.support.FILE_PROVIDER_PATHS"
+135-->[io.carrotquest:android-sdk:1.0.34-commonRelease] /home/botalov/.gradle/caches/transforms-2/files-2.1/62763259b1b4f1ecb2020da484872291/jetified-android-sdk-1.0.34-commonRelease/AndroidManifest.xml:77:17-67
+136                android:resource="@xml/fileprovider" />
+136-->[io.carrotquest:android-sdk:1.0.34-commonRelease] /home/botalov/.gradle/caches/transforms-2/files-2.1/62763259b1b4f1ecb2020da484872291/jetified-android-sdk-1.0.34-commonRelease/AndroidManifest.xml:78:17-55
+137        </provider>
+138
+139        <activity
+139-->[io.carrotquest:image-picker:1.0.7-commonRelease] /home/botalov/.gradle/caches/transforms-2/files-2.1/d999a1fc85b54886e64ae30b6c0fd352/jetified-image-picker-1.0.7-commonRelease/AndroidManifest.xml:19:9-21:50
+140            android:name="io.carrotquest.imagepicker.control.bottom_sheet.picker_bottom_sheet.view.PickerBottomSheet"
+140-->[io.carrotquest:image-picker:1.0.7-commonRelease] /home/botalov/.gradle/caches/transforms-2/files-2.1/d999a1fc85b54886e64ae30b6c0fd352/jetified-image-picker-1.0.7-commonRelease/AndroidManifest.xml:20:13-118
+141            android:theme="@style/Translucent" />
+141-->[io.carrotquest:image-picker:1.0.7-commonRelease] /home/botalov/.gradle/caches/transforms-2/files-2.1/d999a1fc85b54886e64ae30b6c0fd352/jetified-image-picker-1.0.7-commonRelease/AndroidManifest.xml:21:13-47
+142        <!--
+143             FirebaseMessagingService performs security checks at runtime,
+144             but set to not exported to explicitly avoid allowing another app to call it.
+145        -->
+146        <service
+146-->[com.google.firebase:firebase-messaging:21.0.1] /home/botalov/.gradle/caches/transforms-2/files-2.1/b33b75be816109484564fa3ede9d5e07/jetified-firebase-messaging-21.0.1/AndroidManifest.xml:28:9-35:19
+147            android:name="com.google.firebase.messaging.FirebaseMessagingService"
+147-->[com.google.firebase:firebase-messaging:21.0.1] /home/botalov/.gradle/caches/transforms-2/files-2.1/b33b75be816109484564fa3ede9d5e07/jetified-firebase-messaging-21.0.1/AndroidManifest.xml:29:13-82
+148            android:directBootAware="true"
+148-->[com.google.firebase:firebase-messaging:21.0.1] /home/botalov/.gradle/caches/transforms-2/files-2.1/b33b75be816109484564fa3ede9d5e07/jetified-firebase-messaging-21.0.1/AndroidManifest.xml:30:13-43
+149            android:exported="false" >
+149-->[com.google.firebase:firebase-messaging:21.0.1] /home/botalov/.gradle/caches/transforms-2/files-2.1/b33b75be816109484564fa3ede9d5e07/jetified-firebase-messaging-21.0.1/AndroidManifest.xml:31:13-37
+150            <intent-filter android:priority="-500" >
+150-->/home/botalov/StudioProjects/sample_cqsdk/app/src/main/AndroidManifest.xml:40:13-42:29
+151                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+151-->/home/botalov/StudioProjects/sample_cqsdk/app/src/main/AndroidManifest.xml:41:17-78
+151-->/home/botalov/StudioProjects/sample_cqsdk/app/src/main/AndroidManifest.xml:41:25-75
+152            </intent-filter>
+153        </service>
+154        <service
+154-->[com.google.firebase:firebase-messaging:21.0.1] /home/botalov/.gradle/caches/transforms-2/files-2.1/b33b75be816109484564fa3ede9d5e07/jetified-firebase-messaging-21.0.1/AndroidManifest.xml:36:9-42:19
+155            android:name="com.google.firebase.components.ComponentDiscoveryService"
+155-->[com.google.firebase:firebase-messaging:21.0.1] /home/botalov/.gradle/caches/transforms-2/files-2.1/b33b75be816109484564fa3ede9d5e07/jetified-firebase-messaging-21.0.1/AndroidManifest.xml:37:13-84
+156            android:directBootAware="true"
+156-->[com.google.firebase:firebase-common:19.5.0] /home/botalov/.gradle/caches/transforms-2/files-2.1/3de0fa970bae2cfb8198e7166b89c52a/jetified-firebase-common-19.5.0/AndroidManifest.xml:35:13-43
+157            android:exported="false" >
+157-->[com.google.firebase:firebase-messaging:21.0.1] /home/botalov/.gradle/caches/transforms-2/files-2.1/b33b75be816109484564fa3ede9d5e07/jetified-firebase-messaging-21.0.1/AndroidManifest.xml:38:13-37
+158            <meta-data
+158-->[com.google.firebase:firebase-messaging:21.0.1] /home/botalov/.gradle/caches/transforms-2/files-2.1/b33b75be816109484564fa3ede9d5e07/jetified-firebase-messaging-21.0.1/AndroidManifest.xml:39:13-41:85
+159                android:name="com.google.firebase.components:com.google.firebase.messaging.FirebaseMessagingRegistrar"
+159-->[com.google.firebase:firebase-messaging:21.0.1] /home/botalov/.gradle/caches/transforms-2/files-2.1/b33b75be816109484564fa3ede9d5e07/jetified-firebase-messaging-21.0.1/AndroidManifest.xml:40:17-119
+160                android:value="com.google.firebase.components.ComponentRegistrar" />
+160-->[com.google.firebase:firebase-messaging:21.0.1] /home/botalov/.gradle/caches/transforms-2/files-2.1/b33b75be816109484564fa3ede9d5e07/jetified-firebase-messaging-21.0.1/AndroidManifest.xml:41:17-82
+161            <meta-data
+161-->[com.google.android.gms:play-services-measurement-api:16.5.0] /home/botalov/.gradle/caches/transforms-2/files-2.1/93729fe4814791cc6e6c4e557f5a9897/jetified-play-services-measurement-api-16.5.0/AndroidManifest.xml:30:13-32:85
+162                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
+162-->[com.google.android.gms:play-services-measurement-api:16.5.0] /home/botalov/.gradle/caches/transforms-2/files-2.1/93729fe4814791cc6e6c4e557f5a9897/jetified-play-services-measurement-api-16.5.0/AndroidManifest.xml:31:17-139
+163                android:value="com.google.firebase.components.ComponentRegistrar" />
+163-->[com.google.android.gms:play-services-measurement-api:16.5.0] /home/botalov/.gradle/caches/transforms-2/files-2.1/93729fe4814791cc6e6c4e557f5a9897/jetified-play-services-measurement-api-16.5.0/AndroidManifest.xml:32:17-82
+164            <meta-data
+164-->[com.google.firebase:firebase-iid:21.0.1] /home/botalov/.gradle/caches/transforms-2/files-2.1/c2f01e6f8662519d44e4fbf5c01225bd/jetified-firebase-iid-21.0.1/AndroidManifest.xml:32:13-34:85
+165                android:name="com.google.firebase.components:com.google.firebase.iid.Registrar"
+165-->[com.google.firebase:firebase-iid:21.0.1] /home/botalov/.gradle/caches/transforms-2/files-2.1/c2f01e6f8662519d44e4fbf5c01225bd/jetified-firebase-iid-21.0.1/AndroidManifest.xml:33:17-96
+166                android:value="com.google.firebase.components.ComponentRegistrar" />
+166-->[com.google.firebase:firebase-iid:21.0.1] /home/botalov/.gradle/caches/transforms-2/files-2.1/c2f01e6f8662519d44e4fbf5c01225bd/jetified-firebase-iid-21.0.1/AndroidManifest.xml:34:17-82
+167            <meta-data
+167-->[com.google.firebase:firebase-datatransport:17.0.10] /home/botalov/.gradle/caches/transforms-2/files-2.1/bada2458b4a3d777569826ccd3a7ed72/jetified-firebase-datatransport-17.0.10/AndroidManifest.xml:28:13-30:85
+168                android:name="com.google.firebase.components:com.google.firebase.datatransport.TransportRegistrar"
+168-->[com.google.firebase:firebase-datatransport:17.0.10] /home/botalov/.gradle/caches/transforms-2/files-2.1/bada2458b4a3d777569826ccd3a7ed72/jetified-firebase-datatransport-17.0.10/AndroidManifest.xml:29:17-115
+169                android:value="com.google.firebase.components.ComponentRegistrar" />
+169-->[com.google.firebase:firebase-datatransport:17.0.10] /home/botalov/.gradle/caches/transforms-2/files-2.1/bada2458b4a3d777569826ccd3a7ed72/jetified-firebase-datatransport-17.0.10/AndroidManifest.xml:30:17-82
+170            <meta-data
+170-->[com.google.firebase:firebase-installations:16.3.5] /home/botalov/.gradle/caches/transforms-2/files-2.1/3509ca237534b091c445aeebab268979/jetified-firebase-installations-16.3.5/AndroidManifest.xml:18:13-20:85
+171                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
+171-->[com.google.firebase:firebase-installations:16.3.5] /home/botalov/.gradle/caches/transforms-2/files-2.1/3509ca237534b091c445aeebab268979/jetified-firebase-installations-16.3.5/AndroidManifest.xml:19:17-127
+172                android:value="com.google.firebase.components.ComponentRegistrar" />
+172-->[com.google.firebase:firebase-installations:16.3.5] /home/botalov/.gradle/caches/transforms-2/files-2.1/3509ca237534b091c445aeebab268979/jetified-firebase-installations-16.3.5/AndroidManifest.xml:20:17-82
+173            <!--
+174                This registrar is not defined in the dynamic-module-support sdk itself to allow non-firebase
+175                clients to use it as well, by defining this registrar in their own core/common library.
+176            -->
+177            <meta-data
+177-->[com.google.firebase:firebase-common:19.5.0] /home/botalov/.gradle/caches/transforms-2/files-2.1/3de0fa970bae2cfb8198e7166b89c52a/jetified-firebase-common-19.5.0/AndroidManifest.xml:43:13-45:85
+178                android:name="com.google.firebase.components:com.google.firebase.dynamicloading.DynamicLoadingRegistrar"
+178-->[com.google.firebase:firebase-common:19.5.0] /home/botalov/.gradle/caches/transforms-2/files-2.1/3de0fa970bae2cfb8198e7166b89c52a/jetified-firebase-common-19.5.0/AndroidManifest.xml:44:17-121
+179                android:value="com.google.firebase.components.ComponentRegistrar" />
+179-->[com.google.firebase:firebase-common:19.5.0] /home/botalov/.gradle/caches/transforms-2/files-2.1/3de0fa970bae2cfb8198e7166b89c52a/jetified-firebase-common-19.5.0/AndroidManifest.xml:45:17-82
+180        </service>
+181
+182        <receiver
+182-->[com.google.firebase:firebase-iid:21.0.1] /home/botalov/.gradle/caches/transforms-2/files-2.1/c2f01e6f8662519d44e4fbf5c01225bd/jetified-firebase-iid-21.0.1/AndroidManifest.xml:37:9-44:20
+183            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
+183-->[com.google.firebase:firebase-iid:21.0.1] /home/botalov/.gradle/caches/transforms-2/files-2.1/c2f01e6f8662519d44e4fbf5c01225bd/jetified-firebase-iid-21.0.1/AndroidManifest.xml:38:13-78
+184            android:exported="true"
+184-->[com.google.firebase:firebase-iid:21.0.1] /home/botalov/.gradle/caches/transforms-2/files-2.1/c2f01e6f8662519d44e4fbf5c01225bd/jetified-firebase-iid-21.0.1/AndroidManifest.xml:39:13-36
+185            android:permission="com.google.android.c2dm.permission.SEND" >
+185-->[com.google.firebase:firebase-iid:21.0.1] /home/botalov/.gradle/caches/transforms-2/files-2.1/c2f01e6f8662519d44e4fbf5c01225bd/jetified-firebase-iid-21.0.1/AndroidManifest.xml:40:13-73
+186            <intent-filter>
+186-->[com.google.firebase:firebase-iid:21.0.1] /home/botalov/.gradle/caches/transforms-2/files-2.1/c2f01e6f8662519d44e4fbf5c01225bd/jetified-firebase-iid-21.0.1/AndroidManifest.xml:41:13-43:29
+187                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+187-->[com.google.firebase:firebase-iid:21.0.1] /home/botalov/.gradle/caches/transforms-2/files-2.1/c2f01e6f8662519d44e4fbf5c01225bd/jetified-firebase-iid-21.0.1/AndroidManifest.xml:42:17-81
+187-->[com.google.firebase:firebase-iid:21.0.1] /home/botalov/.gradle/caches/transforms-2/files-2.1/c2f01e6f8662519d44e4fbf5c01225bd/jetified-firebase-iid-21.0.1/AndroidManifest.xml:42:25-78
+188            </intent-filter>
+189        </receiver>
+190        <receiver
+190-->[com.google.android.gms:play-services-measurement:16.5.0] /home/botalov/.gradle/caches/transforms-2/files-2.1/17c14e4f08bed92595f5a0d8b51030c1/jetified-play-services-measurement-16.5.0/AndroidManifest.xml:29:9-33:20
+191            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+191-->[com.google.android.gms:play-services-measurement:16.5.0] /home/botalov/.gradle/caches/transforms-2/files-2.1/17c14e4f08bed92595f5a0d8b51030c1/jetified-play-services-measurement-16.5.0/AndroidManifest.xml:30:13-85
+192            android:enabled="true"
+192-->[com.google.android.gms:play-services-measurement:16.5.0] /home/botalov/.gradle/caches/transforms-2/files-2.1/17c14e4f08bed92595f5a0d8b51030c1/jetified-play-services-measurement-16.5.0/AndroidManifest.xml:31:13-35
+193            android:exported="false" >
+193-->[com.google.android.gms:play-services-measurement:16.5.0] /home/botalov/.gradle/caches/transforms-2/files-2.1/17c14e4f08bed92595f5a0d8b51030c1/jetified-play-services-measurement-16.5.0/AndroidManifest.xml:32:13-37
+194        </receiver>
+195        <receiver
+195-->[com.google.android.gms:play-services-measurement:16.5.0] /home/botalov/.gradle/caches/transforms-2/files-2.1/17c14e4f08bed92595f5a0d8b51030c1/jetified-play-services-measurement-16.5.0/AndroidManifest.xml:34:9-42:20
+196            android:name="com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver"
+196-->[com.google.android.gms:play-services-measurement:16.5.0] /home/botalov/.gradle/caches/transforms-2/files-2.1/17c14e4f08bed92595f5a0d8b51030c1/jetified-play-services-measurement-16.5.0/AndroidManifest.xml:35:13-100
+197            android:enabled="true"
+197-->[com.google.android.gms:play-services-measurement:16.5.0] /home/botalov/.gradle/caches/transforms-2/files-2.1/17c14e4f08bed92595f5a0d8b51030c1/jetified-play-services-measurement-16.5.0/AndroidManifest.xml:36:13-35
+198            android:exported="true"
+198-->[com.google.android.gms:play-services-measurement:16.5.0] /home/botalov/.gradle/caches/transforms-2/files-2.1/17c14e4f08bed92595f5a0d8b51030c1/jetified-play-services-measurement-16.5.0/AndroidManifest.xml:37:13-36
+199            android:permission="android.permission.INSTALL_PACKAGES" >
+199-->[com.google.android.gms:play-services-measurement:16.5.0] /home/botalov/.gradle/caches/transforms-2/files-2.1/17c14e4f08bed92595f5a0d8b51030c1/jetified-play-services-measurement-16.5.0/AndroidManifest.xml:38:13-69
+200            <intent-filter>
+200-->[io.carrotquest:android-sdk:1.0.34-commonRelease] /home/botalov/.gradle/caches/transforms-2/files-2.1/62763259b1b4f1ecb2020da484872291/jetified-android-sdk-1.0.34-commonRelease/AndroidManifest.xml:41:13-43:29
+201                <action android:name="com.android.vending.INSTALL_REFERRER" />
+201-->[io.carrotquest:android-sdk:1.0.34-commonRelease] /home/botalov/.gradle/caches/transforms-2/files-2.1/62763259b1b4f1ecb2020da484872291/jetified-android-sdk-1.0.34-commonRelease/AndroidManifest.xml:42:17-79
+201-->[io.carrotquest:android-sdk:1.0.34-commonRelease] /home/botalov/.gradle/caches/transforms-2/files-2.1/62763259b1b4f1ecb2020da484872291/jetified-android-sdk-1.0.34-commonRelease/AndroidManifest.xml:42:25-76
+202            </intent-filter>
+203        </receiver>
+204
+205        <service
+205-->[com.google.android.gms:play-services-measurement:16.5.0] /home/botalov/.gradle/caches/transforms-2/files-2.1/17c14e4f08bed92595f5a0d8b51030c1/jetified-play-services-measurement-16.5.0/AndroidManifest.xml:44:9-47:40
+206            android:name="com.google.android.gms.measurement.AppMeasurementService"
+206-->[com.google.android.gms:play-services-measurement:16.5.0] /home/botalov/.gradle/caches/transforms-2/files-2.1/17c14e4f08bed92595f5a0d8b51030c1/jetified-play-services-measurement-16.5.0/AndroidManifest.xml:45:13-84
+207            android:enabled="true"
+207-->[com.google.android.gms:play-services-measurement:16.5.0] /home/botalov/.gradle/caches/transforms-2/files-2.1/17c14e4f08bed92595f5a0d8b51030c1/jetified-play-services-measurement-16.5.0/AndroidManifest.xml:46:13-35
+208            android:exported="false" />
+208-->[com.google.android.gms:play-services-measurement:16.5.0] /home/botalov/.gradle/caches/transforms-2/files-2.1/17c14e4f08bed92595f5a0d8b51030c1/jetified-play-services-measurement-16.5.0/AndroidManifest.xml:47:13-37
+209        <service
+209-->[com.google.android.gms:play-services-measurement:16.5.0] /home/botalov/.gradle/caches/transforms-2/files-2.1/17c14e4f08bed92595f5a0d8b51030c1/jetified-play-services-measurement-16.5.0/AndroidManifest.xml:48:9-52:72
+210            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
+210-->[com.google.android.gms:play-services-measurement:16.5.0] /home/botalov/.gradle/caches/transforms-2/files-2.1/17c14e4f08bed92595f5a0d8b51030c1/jetified-play-services-measurement-16.5.0/AndroidManifest.xml:49:13-87
+211            android:enabled="true"
+211-->[com.google.android.gms:play-services-measurement:16.5.0] /home/botalov/.gradle/caches/transforms-2/files-2.1/17c14e4f08bed92595f5a0d8b51030c1/jetified-play-services-measurement-16.5.0/AndroidManifest.xml:50:13-35
+212            android:exported="false"
+212-->[com.google.android.gms:play-services-measurement:16.5.0] /home/botalov/.gradle/caches/transforms-2/files-2.1/17c14e4f08bed92595f5a0d8b51030c1/jetified-play-services-measurement-16.5.0/AndroidManifest.xml:51:13-37
+213            android:permission="android.permission.BIND_JOB_SERVICE" />
+213-->[com.google.android.gms:play-services-measurement:16.5.0] /home/botalov/.gradle/caches/transforms-2/files-2.1/17c14e4f08bed92595f5a0d8b51030c1/jetified-play-services-measurement-16.5.0/AndroidManifest.xml:52:13-69
+214
+215        <provider
+215-->[com.google.firebase:firebase-common:19.5.0] /home/botalov/.gradle/caches/transforms-2/files-2.1/3de0fa970bae2cfb8198e7166b89c52a/jetified-firebase-common-19.5.0/AndroidManifest.xml:26:9-31:39
+216            android:name="com.google.firebase.provider.FirebaseInitProvider"
+216-->[com.google.firebase:firebase-common:19.5.0] /home/botalov/.gradle/caches/transforms-2/files-2.1/3de0fa970bae2cfb8198e7166b89c52a/jetified-firebase-common-19.5.0/AndroidManifest.xml:27:13-77
+217            android:authorities="io.carrotquest.sample.firebaseinitprovider"
+217-->[com.google.firebase:firebase-common:19.5.0] /home/botalov/.gradle/caches/transforms-2/files-2.1/3de0fa970bae2cfb8198e7166b89c52a/jetified-firebase-common-19.5.0/AndroidManifest.xml:28:13-72
+218            android:directBootAware="true"
+218-->[com.google.firebase:firebase-common:19.5.0] /home/botalov/.gradle/caches/transforms-2/files-2.1/3de0fa970bae2cfb8198e7166b89c52a/jetified-firebase-common-19.5.0/AndroidManifest.xml:29:13-43
+219            android:exported="false"
+219-->[com.google.firebase:firebase-common:19.5.0] /home/botalov/.gradle/caches/transforms-2/files-2.1/3de0fa970bae2cfb8198e7166b89c52a/jetified-firebase-common-19.5.0/AndroidManifest.xml:30:13-37
+220            android:initOrder="100" />
+220-->[com.google.firebase:firebase-common:19.5.0] /home/botalov/.gradle/caches/transforms-2/files-2.1/3de0fa970bae2cfb8198e7166b89c52a/jetified-firebase-common-19.5.0/AndroidManifest.xml:31:13-36
+221
+222        <activity
+222-->[com.google.android.gms:play-services-base:17.0.0] /home/botalov/.gradle/caches/transforms-2/files-2.1/ca164ee28e446fab7dcc39d549ec249c/jetified-play-services-base-17.0.0/AndroidManifest.xml:23:9-26:75
+223            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+223-->[com.google.android.gms:play-services-base:17.0.0] /home/botalov/.gradle/caches/transforms-2/files-2.1/ca164ee28e446fab7dcc39d549ec249c/jetified-play-services-base-17.0.0/AndroidManifest.xml:24:13-79
+224            android:exported="false"
+224-->[com.google.android.gms:play-services-base:17.0.0] /home/botalov/.gradle/caches/transforms-2/files-2.1/ca164ee28e446fab7dcc39d549ec249c/jetified-play-services-base-17.0.0/AndroidManifest.xml:25:13-37
+225            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+225-->[com.google.android.gms:play-services-base:17.0.0] /home/botalov/.gradle/caches/transforms-2/files-2.1/ca164ee28e446fab7dcc39d549ec249c/jetified-play-services-base-17.0.0/AndroidManifest.xml:26:13-72
+226
+227        <meta-data
+227-->[com.google.android.gms:play-services-basement:17.0.0] /home/botalov/.gradle/caches/transforms-2/files-2.1/eaad86c17299528450dae5632c8f2a49/jetified-play-services-basement-17.0.0/AndroidManifest.xml:23:9-25:69
+228            android:name="com.google.android.gms.version"
+228-->[com.google.android.gms:play-services-basement:17.0.0] /home/botalov/.gradle/caches/transforms-2/files-2.1/eaad86c17299528450dae5632c8f2a49/jetified-play-services-basement-17.0.0/AndroidManifest.xml:24:13-58
+229            android:value="@integer/google_play_services_version" />
+229-->[com.google.android.gms:play-services-basement:17.0.0] /home/botalov/.gradle/caches/transforms-2/files-2.1/eaad86c17299528450dae5632c8f2a49/jetified-play-services-basement-17.0.0/AndroidManifest.xml:25:13-66
+230
+231        <service
+231-->[com.google.android.datatransport:transport-backend-cct:2.3.3] /home/botalov/.gradle/caches/transforms-2/files-2.1/e500090da37ef8a159e1e42c9c32f3ef/jetified-transport-backend-cct-2.3.3/AndroidManifest.xml:29:9-35:19
+232            android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery"
+232-->[com.google.android.datatransport:transport-backend-cct:2.3.3] /home/botalov/.gradle/caches/transforms-2/files-2.1/e500090da37ef8a159e1e42c9c32f3ef/jetified-transport-backend-cct-2.3.3/AndroidManifest.xml:30:13-103
+233            android:exported="false" >
+233-->[com.google.android.datatransport:transport-backend-cct:2.3.3] /home/botalov/.gradle/caches/transforms-2/files-2.1/e500090da37ef8a159e1e42c9c32f3ef/jetified-transport-backend-cct-2.3.3/AndroidManifest.xml:31:13-37
+234            <meta-data
+234-->[com.google.android.datatransport:transport-backend-cct:2.3.3] /home/botalov/.gradle/caches/transforms-2/files-2.1/e500090da37ef8a159e1e42c9c32f3ef/jetified-transport-backend-cct-2.3.3/AndroidManifest.xml:32:13-34:39
+235                android:name="backend:com.google.android.datatransport.cct.CctBackendFactory"
+235-->[com.google.android.datatransport:transport-backend-cct:2.3.3] /home/botalov/.gradle/caches/transforms-2/files-2.1/e500090da37ef8a159e1e42c9c32f3ef/jetified-transport-backend-cct-2.3.3/AndroidManifest.xml:33:17-94
+236                android:value="cct" />
+236-->[com.google.android.datatransport:transport-backend-cct:2.3.3] /home/botalov/.gradle/caches/transforms-2/files-2.1/e500090da37ef8a159e1e42c9c32f3ef/jetified-transport-backend-cct-2.3.3/AndroidManifest.xml:34:17-36
+237        </service>
+238        <service
+238-->[com.google.android.datatransport:transport-runtime:2.2.5] /home/botalov/.gradle/caches/transforms-2/files-2.1/5a5cf5b4e9bba0cad613863c6872f6b9/jetified-transport-runtime-2.2.5/AndroidManifest.xml:26:9-30:19
+239            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService"
+239-->[com.google.android.datatransport:transport-runtime:2.2.5] /home/botalov/.gradle/caches/transforms-2/files-2.1/5a5cf5b4e9bba0cad613863c6872f6b9/jetified-transport-runtime-2.2.5/AndroidManifest.xml:27:13-117
+240            android:exported="false"
+240-->[com.google.android.datatransport:transport-runtime:2.2.5] /home/botalov/.gradle/caches/transforms-2/files-2.1/5a5cf5b4e9bba0cad613863c6872f6b9/jetified-transport-runtime-2.2.5/AndroidManifest.xml:28:13-37
+241            android:permission="android.permission.BIND_JOB_SERVICE" >
+241-->[com.google.android.datatransport:transport-runtime:2.2.5] /home/botalov/.gradle/caches/transforms-2/files-2.1/5a5cf5b4e9bba0cad613863c6872f6b9/jetified-transport-runtime-2.2.5/AndroidManifest.xml:29:13-69
+242        </service>
+243
+244        <receiver
+244-->[com.google.android.datatransport:transport-runtime:2.2.5] /home/botalov/.gradle/caches/transforms-2/files-2.1/5a5cf5b4e9bba0cad613863c6872f6b9/jetified-transport-runtime-2.2.5/AndroidManifest.xml:32:9-34:40
+245            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
+245-->[com.google.android.datatransport:transport-runtime:2.2.5] /home/botalov/.gradle/caches/transforms-2/files-2.1/5a5cf5b4e9bba0cad613863c6872f6b9/jetified-transport-runtime-2.2.5/AndroidManifest.xml:33:13-132
+246            android:exported="false" />
+246-->[com.google.android.datatransport:transport-runtime:2.2.5] /home/botalov/.gradle/caches/transforms-2/files-2.1/5a5cf5b4e9bba0cad613863c6872f6b9/jetified-transport-runtime-2.2.5/AndroidManifest.xml:34:13-37
+247
+248        <provider
+248-->[androidx.lifecycle:lifecycle-process:2.2.0] /home/botalov/.gradle/caches/transforms-2/files-2.1/3a8027526ad8c4c8ab81ff9bc549ce37/jetified-lifecycle-process-2.2.0/AndroidManifest.xml:25:9-29:43
+249            android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
+249-->[androidx.lifecycle:lifecycle-process:2.2.0] /home/botalov/.gradle/caches/transforms-2/files-2.1/3a8027526ad8c4c8ab81ff9bc549ce37/jetified-lifecycle-process-2.2.0/AndroidManifest.xml:26:13-79
+250            android:authorities="io.carrotquest.sample.lifecycle-process"
+250-->[androidx.lifecycle:lifecycle-process:2.2.0] /home/botalov/.gradle/caches/transforms-2/files-2.1/3a8027526ad8c4c8ab81ff9bc549ce37/jetified-lifecycle-process-2.2.0/AndroidManifest.xml:27:13-69
+251            android:exported="false"
+251-->[androidx.lifecycle:lifecycle-process:2.2.0] /home/botalov/.gradle/caches/transforms-2/files-2.1/3a8027526ad8c4c8ab81ff9bc549ce37/jetified-lifecycle-process-2.2.0/AndroidManifest.xml:28:13-37
+252            android:multiprocess="true" />
+252-->[androidx.lifecycle:lifecycle-process:2.2.0] /home/botalov/.gradle/caches/transforms-2/files-2.1/3a8027526ad8c4c8ab81ff9bc549ce37/jetified-lifecycle-process-2.2.0/AndroidManifest.xml:29:13-40
+253
+254        <activity
+254-->[com.vanniktech:rxpermission:0.4.0] /home/botalov/.gradle/caches/transforms-2/files-2.1/16d49cb49c14c88f2098e1d95ae737fe/jetified-rxpermission-0.4.0/AndroidManifest.xml:10:9-13:75
+255            android:name="com.vanniktech.rxpermission.ShadowActivity"
+255-->[com.vanniktech:rxpermission:0.4.0] /home/botalov/.gradle/caches/transforms-2/files-2.1/16d49cb49c14c88f2098e1d95ae737fe/jetified-rxpermission-0.4.0/AndroidManifest.xml:11:13-70
+256            android:launchMode="singleTop"
+256-->[com.vanniktech:rxpermission:0.4.0] /home/botalov/.gradle/caches/transforms-2/files-2.1/16d49cb49c14c88f2098e1d95ae737fe/jetified-rxpermission-0.4.0/AndroidManifest.xml:12:13-43
+257            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+257-->[com.vanniktech:rxpermission:0.4.0] /home/botalov/.gradle/caches/transforms-2/files-2.1/16d49cb49c14c88f2098e1d95ae737fe/jetified-rxpermission-0.4.0/AndroidManifest.xml:13:13-72
+258    </application>
+259
+260</manifest>

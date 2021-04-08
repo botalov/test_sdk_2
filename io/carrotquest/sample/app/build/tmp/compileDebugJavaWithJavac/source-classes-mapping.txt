@@ -1,0 +1,2 @@
+io/carrotquest/sample/BuildConfig.java
+ io.carrotquest.sample.BuildConfig
