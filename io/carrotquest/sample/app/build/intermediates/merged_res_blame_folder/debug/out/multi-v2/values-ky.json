@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "/home/botalov/StudioProjects/sample_cqsdk/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-ky/values-ky.xml",
+            "outputFile": "/home/botalov/test_sdk_rep_2/test_sdk_2/io/carrotquest/sample/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-ky/values-ky.xml",
             "map": [
                 {
                     "source": "/home/botalov/.gradle/caches/transforms-2/files-2.1/ca164ee28e446fab7dcc39d549ec249c/jetified-play-services-base-17.0.0/res/values-ky/values.xml",

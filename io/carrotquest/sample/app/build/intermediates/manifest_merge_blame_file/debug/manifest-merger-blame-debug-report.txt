@@ -6,13 +6,13 @@
 6
 7    <uses-sdk
 8        android:minSdkVersion="16"
-8-->/home/botalov/StudioProjects/sample_cqsdk/app/src/main/AndroidManifest.xml
+8-->/home/botalov/test_sdk_rep_2/test_sdk_2/io/carrotquest/sample/app/src/main/AndroidManifest.xml
 9        android:targetSdkVersion="28" />
-9-->/home/botalov/StudioProjects/sample_cqsdk/app/src/main/AndroidManifest.xml
+9-->/home/botalov/test_sdk_rep_2/test_sdk_2/io/carrotquest/sample/app/src/main/AndroidManifest.xml
 10
 11    <uses-permission android:name="android.permission.INTERNET" />
-11-->/home/botalov/StudioProjects/sample_cqsdk/app/src/main/AndroidManifest.xml:5:5-66
-11-->/home/botalov/StudioProjects/sample_cqsdk/app/src/main/AndroidManifest.xml:5:22-64
+11-->/home/botalov/test_sdk_rep_2/test_sdk_2/io/carrotquest/sample/app/src/main/AndroidManifest.xml:5:5-66
+11-->/home/botalov/test_sdk_rep_2/test_sdk_2/io/carrotquest/sample/app/src/main/AndroidManifest.xml:5:22-64
 12    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
 12-->[io.carrotquest:android-sdk:1.0.34-commonRelease] /home/botalov/.gradle/caches/transforms-2/files-2.1/62763259b1b4f1ecb2020da484872291/jetified-android-sdk-1.0.34-commonRelease/AndroidManifest.xml:13:5-82
 12-->[io.carrotquest:android-sdk:1.0.34-commonRelease] /home/botalov/.gradle/caches/transforms-2/files-2.1/62763259b1b4f1ecb2020da484872291/jetified-android-sdk-1.0.34-commonRelease/AndroidManifest.xml:13:22-79
@@ -45,81 +45,81 @@
 21-->[com.google.android.gms:play-services-measurement:16.5.0] /home/botalov/.gradle/caches/transforms-2/files-2.1/17c14e4f08bed92595f5a0d8b51030c1/jetified-play-services-measurement-16.5.0/AndroidManifest.xml:26:22-107
 22
 23    <application
-23-->/home/botalov/StudioProjects/sample_cqsdk/app/src/main/AndroidManifest.xml:7:5-44:19
+23-->/home/botalov/test_sdk_rep_2/test_sdk_2/io/carrotquest/sample/app/src/main/AndroidManifest.xml:7:5-44:19
 24        android:name="androidx.multidex.MultiDexApplication"
 25        android:allowBackup="true"
-25-->/home/botalov/StudioProjects/sample_cqsdk/app/src/main/AndroidManifest.xml:8:9-35
+25-->/home/botalov/test_sdk_rep_2/test_sdk_2/io/carrotquest/sample/app/src/main/AndroidManifest.xml:8:9-35
 26        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
 26-->[androidx.core:core:1.3.2] /home/botalov/.gradle/caches/transforms-2/files-2.1/3414d4f8c6d2974484da138475b51c4f/core-1.3.2/AndroidManifest.xml:24:18-86
 27        android:debuggable="true"
 28        android:icon="@mipmap/ic_launcher"
-28-->/home/botalov/StudioProjects/sample_cqsdk/app/src/main/AndroidManifest.xml:9:9-43
+28-->/home/botalov/test_sdk_rep_2/test_sdk_2/io/carrotquest/sample/app/src/main/AndroidManifest.xml:9:9-43
 29        android:label="@string/app_name"
-29-->/home/botalov/StudioProjects/sample_cqsdk/app/src/main/AndroidManifest.xml:10:9-41
+29-->/home/botalov/test_sdk_rep_2/test_sdk_2/io/carrotquest/sample/app/src/main/AndroidManifest.xml:10:9-41
 30        android:roundIcon="@mipmap/ic_launcher_round"
-30-->/home/botalov/StudioProjects/sample_cqsdk/app/src/main/AndroidManifest.xml:11:9-54
+30-->/home/botalov/test_sdk_rep_2/test_sdk_2/io/carrotquest/sample/app/src/main/AndroidManifest.xml:11:9-54
 31        android:supportsRtl="true"
-31-->/home/botalov/StudioProjects/sample_cqsdk/app/src/main/AndroidManifest.xml:12:9-35
+31-->/home/botalov/test_sdk_rep_2/test_sdk_2/io/carrotquest/sample/app/src/main/AndroidManifest.xml:12:9-35
 32        android:testOnly="true"
 33        android:theme="@style/AppTheme"
-33-->/home/botalov/StudioProjects/sample_cqsdk/app/src/main/AndroidManifest.xml:13:9-40
+33-->/home/botalov/test_sdk_rep_2/test_sdk_2/io/carrotquest/sample/app/src/main/AndroidManifest.xml:13:9-40
 34        android:usesCleartextTraffic="true" >
 34-->[io.carrotquest:android-sdk:1.0.34-commonRelease] /home/botalov/.gradle/caches/transforms-2/files-2.1/62763259b1b4f1ecb2020da484872291/jetified-android-sdk-1.0.34-commonRelease/AndroidManifest.xml:20:9-44
 35        <activity
-35-->/home/botalov/StudioProjects/sample_cqsdk/app/src/main/AndroidManifest.xml:14:9-22:20
+35-->/home/botalov/test_sdk_rep_2/test_sdk_2/io/carrotquest/sample/app/src/main/AndroidManifest.xml:14:9-22:20
 36            android:name="io.carrotquest.sample.start.view.StartActivity"
-36-->/home/botalov/StudioProjects/sample_cqsdk/app/src/main/AndroidManifest.xml:14:19-59
+36-->/home/botalov/test_sdk_rep_2/test_sdk_2/io/carrotquest/sample/app/src/main/AndroidManifest.xml:14:19-59
 37            android:theme="@style/Theme.AppCompat.Light.NoActionBar" >
-37-->/home/botalov/StudioProjects/sample_cqsdk/app/src/main/AndroidManifest.xml:15:13-69
+37-->/home/botalov/test_sdk_rep_2/test_sdk_2/io/carrotquest/sample/app/src/main/AndroidManifest.xml:15:13-69
 38            <intent-filter>
-38-->/home/botalov/StudioProjects/sample_cqsdk/app/src/main/AndroidManifest.xml:17:13-21:29
+38-->/home/botalov/test_sdk_rep_2/test_sdk_2/io/carrotquest/sample/app/src/main/AndroidManifest.xml:17:13-21:29
 39                <action android:name="android.intent.action.MAIN" />
-39-->/home/botalov/StudioProjects/sample_cqsdk/app/src/main/AndroidManifest.xml:18:17-69
-39-->/home/botalov/StudioProjects/sample_cqsdk/app/src/main/AndroidManifest.xml:18:25-66
+39-->/home/botalov/test_sdk_rep_2/test_sdk_2/io/carrotquest/sample/app/src/main/AndroidManifest.xml:18:17-69
+39-->/home/botalov/test_sdk_rep_2/test_sdk_2/io/carrotquest/sample/app/src/main/AndroidManifest.xml:18:25-66
 40
 41                <category android:name="android.intent.category.LAUNCHER" />
-41-->/home/botalov/StudioProjects/sample_cqsdk/app/src/main/AndroidManifest.xml:20:17-77
-41-->/home/botalov/StudioProjects/sample_cqsdk/app/src/main/AndroidManifest.xml:20:27-74
+41-->/home/botalov/test_sdk_rep_2/test_sdk_2/io/carrotquest/sample/app/src/main/AndroidManifest.xml:20:17-77
+41-->/home/botalov/test_sdk_rep_2/test_sdk_2/io/carrotquest/sample/app/src/main/AndroidManifest.xml:20:27-74
 42            </intent-filter>
 43        </activity>
 44        <activity
-44-->/home/botalov/StudioProjects/sample_cqsdk/app/src/main/AndroidManifest.xml:23:9-25:15
+44-->/home/botalov/test_sdk_rep_2/test_sdk_2/io/carrotquest/sample/app/src/main/AndroidManifest.xml:23:9-25:15
 45            android:name="io.carrotquest.sample.main.view.MainActivity"
-45-->/home/botalov/StudioProjects/sample_cqsdk/app/src/main/AndroidManifest.xml:23:19-57
+45-->/home/botalov/test_sdk_rep_2/test_sdk_2/io/carrotquest/sample/app/src/main/AndroidManifest.xml:23:19-57
 46            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
-46-->/home/botalov/StudioProjects/sample_cqsdk/app/src/main/AndroidManifest.xml:24:13-69
+46-->/home/botalov/test_sdk_rep_2/test_sdk_2/io/carrotquest/sample/app/src/main/AndroidManifest.xml:24:13-69
 47        <activity
-47-->/home/botalov/StudioProjects/sample_cqsdk/app/src/main/AndroidManifest.xml:26:9-29:15
+47-->/home/botalov/test_sdk_rep_2/test_sdk_2/io/carrotquest/sample/app/src/main/AndroidManifest.xml:26:9-29:15
 48            android:name="io.carrotquest.sample.input_data.view.InputDataActivity"
-48-->/home/botalov/StudioProjects/sample_cqsdk/app/src/main/AndroidManifest.xml:26:19-68
+48-->/home/botalov/test_sdk_rep_2/test_sdk_2/io/carrotquest/sample/app/src/main/AndroidManifest.xml:26:19-68
 49            android:theme="@style/Theme.AppCompat.Light.NoActionBar"
-49-->/home/botalov/StudioProjects/sample_cqsdk/app/src/main/AndroidManifest.xml:28:13-69
+49-->/home/botalov/test_sdk_rep_2/test_sdk_2/io/carrotquest/sample/app/src/main/AndroidManifest.xml:28:13-69
 50            android:windowSoftInputMode="adjustResize" />
-50-->/home/botalov/StudioProjects/sample_cqsdk/app/src/main/AndroidManifest.xml:27:13-55
+50-->/home/botalov/test_sdk_rep_2/test_sdk_2/io/carrotquest/sample/app/src/main/AndroidManifest.xml:27:13-55
 51        <activity
-51-->/home/botalov/StudioProjects/sample_cqsdk/app/src/main/AndroidManifest.xml:30:9-32:15
+51-->/home/botalov/test_sdk_rep_2/test_sdk_2/io/carrotquest/sample/app/src/main/AndroidManifest.xml:30:9-32:15
 52            android:name="io.carrotquest.sample.product.view.ProductActivity"
-52-->/home/botalov/StudioProjects/sample_cqsdk/app/src/main/AndroidManifest.xml:30:19-63
+52-->/home/botalov/test_sdk_rep_2/test_sdk_2/io/carrotquest/sample/app/src/main/AndroidManifest.xml:30:19-63
 53            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
-53-->/home/botalov/StudioProjects/sample_cqsdk/app/src/main/AndroidManifest.xml:31:13-69
+53-->/home/botalov/test_sdk_rep_2/test_sdk_2/io/carrotquest/sample/app/src/main/AndroidManifest.xml:31:13-69
 54        <activity
-54-->/home/botalov/StudioProjects/sample_cqsdk/app/src/main/AndroidManifest.xml:33:9-35:15
+54-->/home/botalov/test_sdk_rep_2/test_sdk_2/io/carrotquest/sample/app/src/main/AndroidManifest.xml:33:9-35:15
 55            android:name="io.carrotquest.sample.cart.view.CartActivity"
-55-->/home/botalov/StudioProjects/sample_cqsdk/app/src/main/AndroidManifest.xml:33:19-57
+55-->/home/botalov/test_sdk_rep_2/test_sdk_2/io/carrotquest/sample/app/src/main/AndroidManifest.xml:33:19-57
 56            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
-56-->/home/botalov/StudioProjects/sample_cqsdk/app/src/main/AndroidManifest.xml:34:13-69
+56-->/home/botalov/test_sdk_rep_2/test_sdk_2/io/carrotquest/sample/app/src/main/AndroidManifest.xml:34:13-69
 57
 58        <service
-58-->/home/botalov/StudioProjects/sample_cqsdk/app/src/main/AndroidManifest.xml:38:9-43:19
+58-->/home/botalov/test_sdk_rep_2/test_sdk_2/io/carrotquest/sample/app/src/main/AndroidManifest.xml:38:9-43:19
 59            android:name="io.carrotquest.sample.service.MyFirebaseMessagingService"
-59-->/home/botalov/StudioProjects/sample_cqsdk/app/src/main/AndroidManifest.xml:38:18-68
+59-->/home/botalov/test_sdk_rep_2/test_sdk_2/io/carrotquest/sample/app/src/main/AndroidManifest.xml:38:18-68
 60            android:exported="false" >
-60-->/home/botalov/StudioProjects/sample_cqsdk/app/src/main/AndroidManifest.xml:39:13-37
+60-->/home/botalov/test_sdk_rep_2/test_sdk_2/io/carrotquest/sample/app/src/main/AndroidManifest.xml:39:13-37
 61            <intent-filter>
-61-->/home/botalov/StudioProjects/sample_cqsdk/app/src/main/AndroidManifest.xml:40:13-42:29
+61-->/home/botalov/test_sdk_rep_2/test_sdk_2/io/carrotquest/sample/app/src/main/AndroidManifest.xml:40:13-42:29
 62                <action android:name="com.google.firebase.MESSAGING_EVENT" />
-62-->/home/botalov/StudioProjects/sample_cqsdk/app/src/main/AndroidManifest.xml:41:17-78
-62-->/home/botalov/StudioProjects/sample_cqsdk/app/src/main/AndroidManifest.xml:41:25-75
+62-->/home/botalov/test_sdk_rep_2/test_sdk_2/io/carrotquest/sample/app/src/main/AndroidManifest.xml:41:17-78
+62-->/home/botalov/test_sdk_rep_2/test_sdk_2/io/carrotquest/sample/app/src/main/AndroidManifest.xml:41:25-75
 63            </intent-filter>
 64        </service>
 65        <!--
@@ -232,10 +232,10 @@
 123-->[io.carrotquest:android-sdk:1.0.34-commonRelease] /home/botalov/.gradle/caches/transforms-2/files-2.1/62763259b1b4f1ecb2020da484872291/jetified-android-sdk-1.0.34-commonRelease/AndroidManifest.xml:85:9-89:19
 123-->[io.carrotquest:android-sdk:1.0.34-commonRelease] /home/botalov/.gradle/caches/transforms-2/files-2.1/62763259b1b4f1ecb2020da484872291/jetified-android-sdk-1.0.34-commonRelease/AndroidManifest.xml:85:18-118
 124            <intent-filter>
-124-->/home/botalov/StudioProjects/sample_cqsdk/app/src/main/AndroidManifest.xml:40:13-42:29
+124-->/home/botalov/test_sdk_rep_2/test_sdk_2/io/carrotquest/sample/app/src/main/AndroidManifest.xml:40:13-42:29
 125                <action android:name="com.google.firebase.MESSAGING_EVENT" />
-125-->/home/botalov/StudioProjects/sample_cqsdk/app/src/main/AndroidManifest.xml:41:17-78
-125-->/home/botalov/StudioProjects/sample_cqsdk/app/src/main/AndroidManifest.xml:41:25-75
+125-->/home/botalov/test_sdk_rep_2/test_sdk_2/io/carrotquest/sample/app/src/main/AndroidManifest.xml:41:17-78
+125-->/home/botalov/test_sdk_rep_2/test_sdk_2/io/carrotquest/sample/app/src/main/AndroidManifest.xml:41:25-75
 126            </intent-filter>
 127        </service>
 128
@@ -276,10 +276,10 @@
 149            android:exported="false" >
 149-->[com.google.firebase:firebase-messaging:21.0.1] /home/botalov/.gradle/caches/transforms-2/files-2.1/b33b75be816109484564fa3ede9d5e07/jetified-firebase-messaging-21.0.1/AndroidManifest.xml:31:13-37
 150            <intent-filter android:priority="-500" >
-150-->/home/botalov/StudioProjects/sample_cqsdk/app/src/main/AndroidManifest.xml:40:13-42:29
+150-->/home/botalov/test_sdk_rep_2/test_sdk_2/io/carrotquest/sample/app/src/main/AndroidManifest.xml:40:13-42:29
 151                <action android:name="com.google.firebase.MESSAGING_EVENT" />
-151-->/home/botalov/StudioProjects/sample_cqsdk/app/src/main/AndroidManifest.xml:41:17-78
-151-->/home/botalov/StudioProjects/sample_cqsdk/app/src/main/AndroidManifest.xml:41:25-75
+151-->/home/botalov/test_sdk_rep_2/test_sdk_2/io/carrotquest/sample/app/src/main/AndroidManifest.xml:41:17-78
+151-->/home/botalov/test_sdk_rep_2/test_sdk_2/io/carrotquest/sample/app/src/main/AndroidManifest.xml:41:25-75
 152            </intent-filter>
 153        </service>
 154        <service

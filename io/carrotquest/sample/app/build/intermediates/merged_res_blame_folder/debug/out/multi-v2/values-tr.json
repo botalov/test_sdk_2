@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "/home/botalov/StudioProjects/sample_cqsdk/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-tr/values-tr.xml",
+            "outputFile": "/home/botalov/test_sdk_rep_2/test_sdk_2/io/carrotquest/sample/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-tr/values-tr.xml",
             "map": [
                 {
                     "source": "/home/botalov/.gradle/caches/transforms-2/files-2.1/b33b75be816109484564fa3ede9d5e07/jetified-firebase-messaging-21.0.1/res/values-tr/values.xml",

@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "/home/botalov/StudioProjects/sample_cqsdk/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v23/values-v23.xml",
+            "outputFile": "/home/botalov/test_sdk_rep_2/test_sdk_2/io/carrotquest/sample/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v23/values-v23.xml",
             "map": [
                 {
                     "source": "/home/botalov/.gradle/caches/transforms-2/files-2.1/95ced69cafe6805b58e9dd0dffd59649/cardview-1.0.0/res/values-v23/values-v23.xml",

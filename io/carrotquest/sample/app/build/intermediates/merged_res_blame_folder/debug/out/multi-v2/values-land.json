@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "/home/botalov/StudioProjects/sample_cqsdk/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-land/values-land.xml",
+            "outputFile": "/home/botalov/test_sdk_rep_2/test_sdk_2/io/carrotquest/sample/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-land/values-land.xml",
             "map": [
                 {
                     "source": "/home/botalov/.gradle/caches/transforms-2/files-2.1/a68c41522afcb2696765f80290c2a9f2/material-1.0.0/res/values-land/values-land.xml",

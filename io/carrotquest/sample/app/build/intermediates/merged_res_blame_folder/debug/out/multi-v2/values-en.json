@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "/home/botalov/StudioProjects/sample_cqsdk/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-en/values-en.xml",
+            "outputFile": "/home/botalov/test_sdk_rep_2/test_sdk_2/io/carrotquest/sample/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-en/values-en.xml",
             "map": [
                 {
                     "source": "/home/botalov/.gradle/caches/transforms-2/files-2.1/d999a1fc85b54886e64ae30b6c0fd352/jetified-image-picker-1.0.7-commonRelease/res/values-en/values-en.xml",
