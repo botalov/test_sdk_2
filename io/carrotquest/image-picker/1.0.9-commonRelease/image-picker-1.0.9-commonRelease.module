@@ -1,0 +1,148 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "io.carrotquest",
+    "module": "image-picker",
+    "version": "1.0.9-commonRelease",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.1.1",
+      "buildId": "hr3bubxjmjebplvfnov5j43riq"
+    }
+  },
+  "variants": [
+    {
+      "name": "runtime",
+      "attributes": {
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "com.github.chrisbanes",
+          "module": "PhotoView",
+          "version": {
+            "requires": "2.3.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-android-extensions-runtime",
+          "version": {
+            "requires": "1.6.10"
+          }
+        },
+        {
+          "group": "androidx.appcompat",
+          "module": "appcompat",
+          "version": {
+            "requires": "1.4.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk7",
+          "version": {
+            "requires": "1.6.10"
+          }
+        },
+        {
+          "group": "io.reactivex.rxjava2",
+          "module": "rxandroid",
+          "version": {
+            "requires": "2.1.1"
+          }
+        },
+        {
+          "group": "io.reactivex.rxjava2",
+          "module": "rxjava",
+          "version": {
+            "requires": "2.2.14"
+          }
+        },
+        {
+          "group": "com.github.tbruyelle",
+          "module": "rxpermissions",
+          "version": {
+            "requires": "0.12"
+          }
+        },
+        {
+          "group": "io.reactivex.rxjava3",
+          "module": "rxjava",
+          "version": {
+            "requires": "3.0.13"
+          }
+        },
+        {
+          "group": "androidx.recyclerview",
+          "module": "recyclerview",
+          "version": {
+            "requires": "1.2.1"
+          }
+        },
+        {
+          "group": "androidx.constraintlayout",
+          "module": "constraintlayout",
+          "version": {
+            "requires": "2.1.2"
+          }
+        },
+        {
+          "group": "com.google.android.material",
+          "module": "material",
+          "version": {
+            "requires": "1.4.0"
+          }
+        },
+        {
+          "group": "com.github.bumptech.glide",
+          "module": "glide",
+          "version": {
+            "requires": "4.11.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "image-picker-1.0.9-commonRelease.aar",
+          "url": "image-picker-1.0.9-commonRelease.aar",
+          "size": 308342,
+          "sha512": "39276d55fbb312ad09aaed12334391fedaaaddd05168830f6fcb91931903d97b2bf574c07a2b964f036e13a6e28ba36356799c5825ff968a2591add0db4d8b0f",
+          "sha256": "0639e6f6ff21d820f01020a96e08e60f9b66d44e6df2ff613249f1d78319c134",
+          "sha1": "d367410d94ac67098231c9fd48ecbc990f003ff8",
+          "md5": "bae991e4957e6ef0189c0a8a4536463e"
+        }
+      ]
+    },
+    {
+      "name": "api",
+      "attributes": {
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "com.github.chrisbanes",
+          "module": "PhotoView",
+          "version": {
+            "requires": "2.3.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "image-picker-1.0.9-commonRelease.aar",
+          "url": "image-picker-1.0.9-commonRelease.aar",
+          "size": 308342,
+          "sha512": "39276d55fbb312ad09aaed12334391fedaaaddd05168830f6fcb91931903d97b2bf574c07a2b964f036e13a6e28ba36356799c5825ff968a2591add0db4d8b0f",
+          "sha256": "0639e6f6ff21d820f01020a96e08e60f9b66d44e6df2ff613249f1d78319c134",
+          "sha1": "d367410d94ac67098231c9fd48ecbc990f003ff8",
+          "md5": "bae991e4957e6ef0189c0a8a4536463e"
+        }
+      ]
+    }
+  ]
+}
