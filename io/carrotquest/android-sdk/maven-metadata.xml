@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>io.carrotquest</groupId>
+  <artifactId>android-sdk</artifactId>
+  <versioning>
+    <latest>1.0.37-usRelease</latest>
+    <release>1.0.37-usRelease</release>
+    <versions>
+      <version>1.0.37-commonDebug</version>
+      <version>1.0.37-commonRelease</version>
+      <version>1.0.37-usDebug</version>
+      <version>1.0.37-usRelease</version>
+    </versions>
+    <lastUpdated>20211228054808</lastUpdated>
+  </versioning>
+</metadata>
