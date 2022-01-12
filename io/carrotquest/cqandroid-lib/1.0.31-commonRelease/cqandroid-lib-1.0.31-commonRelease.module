@@ -3,7 +3,7 @@
   "component": {
     "group": "io.carrotquest",
     "module": "cqandroid-lib",
-    "version": "1.0.31-usRelease",
+    "version": "1.0.31-commonRelease",
     "attributes": {
       "org.gradle.status": "release"
     }
@@ -178,13 +178,13 @@
       ],
       "files": [
         {
-          "name": "cqandroid-lib-1.0.31-usRelease.aar",
-          "url": "cqandroid-lib-1.0.31-usRelease.aar",
-          "size": 269292,
-          "sha512": "4d3d95b345d551f4bb4781375c02360a493cfc02a8d92ff08ea7667fc317d61e05c2f59f3ea0289480e1688072b6a686b3064d4a493b867fd462e19c3512a7af",
-          "sha256": "ecc84dc8a5b7fe948df01721bcb2abaf51b23dee958e7a8b8fbee824720a5177",
-          "sha1": "0a24f63305a3bc39af4f5823d74aadb3c18f4f3d",
-          "md5": "82a2ac1db1443e1af3279a47bad02f23"
+          "name": "cqandroid-lib-1.0.31-commonRelease.aar",
+          "url": "cqandroid-lib-1.0.31-commonRelease.aar",
+          "size": 269354,
+          "sha512": "3295c2557d9d2c1cb3fd6034538323650ba2ffaf6a00311fe1c90de3360032df09de37ca327f4a1ed8304d5ba1a66b9cfcefff5fa50ba2bd9868dbf297488983",
+          "sha256": "82da395394a4408dc66d49c799206796eb04abbf4a42cd741c064fe022c0ed9b",
+          "sha1": "82168590410d5286dae9731859014724aeae9b61",
+          "md5": "f5224153b252ba3b2f6bae6a68e83467"
         }
       ]
     },
@@ -218,13 +218,13 @@
       ],
       "files": [
         {
-          "name": "cqandroid-lib-1.0.31-usRelease.aar",
-          "url": "cqandroid-lib-1.0.31-usRelease.aar",
-          "size": 269292,
-          "sha512": "4d3d95b345d551f4bb4781375c02360a493cfc02a8d92ff08ea7667fc317d61e05c2f59f3ea0289480e1688072b6a686b3064d4a493b867fd462e19c3512a7af",
-          "sha256": "ecc84dc8a5b7fe948df01721bcb2abaf51b23dee958e7a8b8fbee824720a5177",
-          "sha1": "0a24f63305a3bc39af4f5823d74aadb3c18f4f3d",
-          "md5": "82a2ac1db1443e1af3279a47bad02f23"
+          "name": "cqandroid-lib-1.0.31-commonRelease.aar",
+          "url": "cqandroid-lib-1.0.31-commonRelease.aar",
+          "size": 269354,
+          "sha512": "3295c2557d9d2c1cb3fd6034538323650ba2ffaf6a00311fe1c90de3360032df09de37ca327f4a1ed8304d5ba1a66b9cfcefff5fa50ba2bd9868dbf297488983",
+          "sha256": "82da395394a4408dc66d49c799206796eb04abbf4a42cd741c064fe022c0ed9b",
+          "sha1": "82168590410d5286dae9731859014724aeae9b61",
+          "md5": "f5224153b252ba3b2f6bae6a68e83467"
         }
       ]
     }
