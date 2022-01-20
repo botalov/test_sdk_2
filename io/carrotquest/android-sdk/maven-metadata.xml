@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>io.carrotquest</groupId>
+  <artifactId>android-sdk</artifactId>
+  <versioning>
+    <latest>1.0.42-usRelease</latest>
+    <release>1.0.42-usRelease</release>
+    <versions>
+      <version>1.0.40-commonDebug</version>
+      <version>1.0.40-commonRelease</version>
+      <version>1.0.40-usDebug</version>
+      <version>1.0.40-usRelease</version>
+      <version>1.0.41-commonDebug</version>
+      <version>1.0.41-commonRelease</version>
+      <version>1.0.41-usDebug</version>
+      <version>1.0.41-usRelease</version>
+      <version>1.0.42-commonDebug</version>
+      <version>1.0.42-commonRelease</version>
+      <version>1.0.42-usDebug</version>
+      <version>1.0.42-usRelease</version>
+    </versions>
+    <lastUpdated>20220120075351</lastUpdated>
+  </versioning>
+</metadata>
