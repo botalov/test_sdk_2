@@ -3,7 +3,7 @@
   "component": {
     "group": "io.carrotquest",
     "module": "cqandroid-lib",
-    "version": "1.0.33-usRelease",
+    "version": "1.0.31-commonRelease",
     "attributes": {
       "org.gradle.status": "release"
     }
@@ -11,7 +11,7 @@
   "createdBy": {
     "gradle": {
       "version": "6.1.1",
-      "buildId": "zkr5micxuvdrhk6iqdqikvyb6m"
+      "buildId": "73ysctpzffddlgy2pkcqabrhhu"
     }
   },
   "variants": [
@@ -178,13 +178,13 @@
       ],
       "files": [
         {
-          "name": "cqandroid-lib-1.0.33-usRelease.aar",
-          "url": "cqandroid-lib-1.0.33-usRelease.aar",
-          "size": 269297,
-          "sha512": "53d7e3d5e5fc7c6df31b720bf8bb480b5b7b1e7977f138480a448f648791976994dbe41211eb1309cc56b0a2f8f2c1da8f159786948a3f15bb26d40fbfbd5886",
-          "sha256": "2723b1fd22bc7ee3b735446509d3569c9e6a150af580b51a460fcacb36b02442",
-          "sha1": "5971f3c681e0291cf462a2621d9301df7f1ea38f",
-          "md5": "421c765cf9ce71d74fca0f2323b3403f"
+          "name": "cqandroid-lib-1.0.31-commonRelease.aar",
+          "url": "cqandroid-lib-1.0.31-commonRelease.aar",
+          "size": 269354,
+          "sha512": "3295c2557d9d2c1cb3fd6034538323650ba2ffaf6a00311fe1c90de3360032df09de37ca327f4a1ed8304d5ba1a66b9cfcefff5fa50ba2bd9868dbf297488983",
+          "sha256": "82da395394a4408dc66d49c799206796eb04abbf4a42cd741c064fe022c0ed9b",
+          "sha1": "82168590410d5286dae9731859014724aeae9b61",
+          "md5": "f5224153b252ba3b2f6bae6a68e83467"
         }
       ]
     },
@@ -218,13 +218,13 @@
       ],
       "files": [
         {
-          "name": "cqandroid-lib-1.0.33-usRelease.aar",
-          "url": "cqandroid-lib-1.0.33-usRelease.aar",
-          "size": 269297,
-          "sha512": "53d7e3d5e5fc7c6df31b720bf8bb480b5b7b1e7977f138480a448f648791976994dbe41211eb1309cc56b0a2f8f2c1da8f159786948a3f15bb26d40fbfbd5886",
-          "sha256": "2723b1fd22bc7ee3b735446509d3569c9e6a150af580b51a460fcacb36b02442",
-          "sha1": "5971f3c681e0291cf462a2621d9301df7f1ea38f",
-          "md5": "421c765cf9ce71d74fca0f2323b3403f"
+          "name": "cqandroid-lib-1.0.31-commonRelease.aar",
+          "url": "cqandroid-lib-1.0.31-commonRelease.aar",
+          "size": 269354,
+          "sha512": "3295c2557d9d2c1cb3fd6034538323650ba2ffaf6a00311fe1c90de3360032df09de37ca327f4a1ed8304d5ba1a66b9cfcefff5fa50ba2bd9868dbf297488983",
+          "sha256": "82da395394a4408dc66d49c799206796eb04abbf4a42cd741c064fe022c0ed9b",
+          "sha1": "82168590410d5286dae9731859014724aeae9b61",
+          "md5": "f5224153b252ba3b2f6bae6a68e83467"
         }
       ]
     }
