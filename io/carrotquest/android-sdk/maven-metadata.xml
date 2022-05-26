@@ -3,8 +3,8 @@
   <groupId>io.carrotquest</groupId>
   <artifactId>android-sdk</artifactId>
   <versioning>
-    <latest>1.0.44-usRelease</latest>
-    <release>1.0.44-usRelease</release>
+    <latest>1.0.52-usRelease</latest>
+    <release>1.0.52-usRelease</release>
     <versions>
       <version>1.0.40-commonDebug</version>
       <version>1.0.40-commonRelease</version>
@@ -26,7 +26,39 @@
       <version>1.0.44-commonRelease</version>
       <version>1.0.44-usDebug</version>
       <version>1.0.44-usRelease</version>
+      <version>1.0.45-commonDebug</version>
+      <version>1.0.45-commonRelease</version>
+      <version>1.0.45-usDebug</version>
+      <version>1.0.45-usRelease</version>
+      <version>1.0.46-commonDebug</version>
+      <version>1.0.46-usDebug</version>
+      <version>1.0.46-commonRelease</version>
+      <version>1.0.46-usRelease</version>
+      <version>1.0.47-commonDebug</version>
+      <version>1.0.47-commonRelease</version>
+      <version>1.0.47-usDebug</version>
+      <version>1.0.47-usRelease</version>
+      <version>1.0.48-commonDebug</version>
+      <version>1.0.48-commonRelease</version>
+      <version>1.0.48-usDebug</version>
+      <version>1.0.48-usRelease</version>
+      <version>1.0.49-commonDebug</version>
+      <version>1.0.49-commonRelease</version>
+      <version>1.0.49-usDebug</version>
+      <version>1.0.49-usRelease</version>
+      <version>1.0.50-commonDebug</version>
+      <version>1.0.50-commonRelease</version>
+      <version>1.0.50-usDebug</version>
+      <version>1.0.50-usRelease</version>
+      <version>1.0.51-commonDebug</version>
+      <version>1.0.51-commonRelease</version>
+      <version>1.0.51-usDebug</version>
+      <version>1.0.51-usRelease</version>
+      <version>1.0.52-commonDebug</version>
+      <version>1.0.52-commonRelease</version>
+      <version>1.0.52-usDebug</version>
+      <version>1.0.52-usRelease</version>
     </versions>
-    <lastUpdated>20220203072245</lastUpdated>
+    <lastUpdated>20220526114843</lastUpdated>
   </versioning>
 </metadata>
