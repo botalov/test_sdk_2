@@ -3,8 +3,8 @@
   <groupId>io.carrotquest</groupId>
   <artifactId>android-sdk</artifactId>
   <versioning>
-    <latest>1.0.57.3-commonRelease</latest>
-    <release>1.0.57.3-commonRelease</release>
+    <latest>1.0.65.1-usRelease</latest>
+    <release>1.0.65.1-usRelease</release>
     <versions>
       <version>1.0.40-commonDebug</version>
       <version>1.0.40-commonRelease</version>
@@ -90,7 +90,39 @@
       <version>1.0.57.3-usDebug</version>
       <version>1.0.57.3-usRelease</version>
       <version>1.0.57.3-commonRelease</version>
+      <version>1.0.58-commonDebug</version>
+      <version>1.0.58-commonRelease</version>
+      <version>1.0.58-usDebug</version>
+      <version>1.0.58-usRelease</version>
+      <version>1.0.59-commonDebug</version>
+      <version>1.0.59-commonRelease</version>
+      <version>1.0.59-usDebug</version>
+      <version>1.0.59-usRelease</version>
+      <version>1.0.60-commonDebug</version>
+      <version>1.0.60-commonRelease</version>
+      <version>1.0.60-usDebug</version>
+      <version>1.0.60-usRelease</version>
+      <version>1.0.61-commonDebug</version>
+      <version>1.0.61-commonRelease</version>
+      <version>1.0.61-usDebug</version>
+      <version>1.0.61-usRelease</version>
+      <version>1.0.62-commonDebug</version>
+      <version>1.0.62-commonRelease</version>
+      <version>1.0.62-usDebug</version>
+      <version>1.0.62-usRelease</version>
+      <version>1.0.63-commonDebug</version>
+      <version>1.0.63-commonRelease</version>
+      <version>1.0.63-usDebug</version>
+      <version>1.0.63-usRelease</version>
+      <version>1.0.64-commonDebug</version>
+      <version>1.0.64-commonRelease</version>
+      <version>1.0.64-usDebug</version>
+      <version>1.0.64-usRelease</version>
+      <version>1.0.65.1-commonDebug</version>
+      <version>1.0.65.1-commonRelease</version>
+      <version>1.0.65.1-usDebug</version>
+      <version>1.0.65.1-usRelease</version>
     </versions>
-    <lastUpdated>20220712042759</lastUpdated>
+    <lastUpdated>20230705111149</lastUpdated>
   </versioning>
 </metadata>
