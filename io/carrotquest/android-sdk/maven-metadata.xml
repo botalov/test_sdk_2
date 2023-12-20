@@ -3,8 +3,8 @@
   <groupId>io.carrotquest</groupId>
   <artifactId>android-sdk</artifactId>
   <versioning>
-    <latest>1.0.70.6-usRelease</latest>
-    <release>1.0.70.6-usRelease</release>
+    <latest>1.0.72.1-usRelease</latest>
+    <release>1.0.72.1-usRelease</release>
     <versions>
       <version>1.0.40-commonDebug</version>
       <version>1.0.40-commonRelease</version>
@@ -279,7 +279,19 @@
       <version>1.0.70.6-usDebug</version>
       <version>1.0.70.6-commonRelease</version>
       <version>1.0.70.6-usRelease</version>
+      <version>1.0.71-commonDebug</version>
+      <version>1.0.71-commonRelease</version>
+      <version>1.0.71-usRelease</version>
+      <version>1.0.71-usDebug</version>
+      <version>1.0.72-commonDebug</version>
+      <version>1.0.72-commonRelease</version>
+      <version>1.0.72-usDebug</version>
+      <version>1.0.72-usRelease</version>
+      <version>1.0.72.1-commonDebug</version>
+      <version>1.0.72.1-commonRelease</version>
+      <version>1.0.72.1-usDebug</version>
+      <version>1.0.72.1-usRelease</version>
     </versions>
-    <lastUpdated>20231116113804</lastUpdated>
+    <lastUpdated>20231220032240</lastUpdated>
   </versioning>
 </metadata>
