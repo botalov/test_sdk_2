@@ -3,8 +3,8 @@
   <groupId>io.carrotquest</groupId>
   <artifactId>cqandroid-lib</artifactId>
   <versioning>
-    <latest>1.0.58.6-usRelease</latest>
-    <release>1.0.58.6-usRelease</release>
+    <latest>1.0.58.7-usRelease</latest>
+    <release>1.0.58.7-usRelease</release>
     <versions>
       <version>1.0.31-commonDebug</version>
       <version>1.0.31-commonRelease</version>
@@ -230,7 +230,11 @@
       <version>1.0.58.6-commonRelease</version>
       <version>1.0.58.6-usDebug</version>
       <version>1.0.58.6-usRelease</version>
+      <version>1.0.58.7-commonDebug</version>
+      <version>1.0.58.7-commonRelease</version>
+      <version>1.0.58.7-usDebug</version>
+      <version>1.0.58.7-usRelease</version>
     </versions>
-    <lastUpdated>20241029103732</lastUpdated>
+    <lastUpdated>20241030055833</lastUpdated>
   </versioning>
 </metadata>
