@@ -3,8 +3,8 @@
   <groupId>io.carrotquest</groupId>
   <artifactId>cqandroid-lib</artifactId>
   <versioning>
-    <latest>1.0.58.16-usRelease</latest>
-    <release>1.0.58.16-usRelease</release>
+    <latest>1.0.63.1-usRelease</latest>
+    <release>1.0.63.1-usRelease</release>
     <versions>
       <version>1.0.31-commonDebug</version>
       <version>1.0.31-commonRelease</version>
@@ -270,7 +270,27 @@
       <version>1.0.58.16-commonRelease</version>
       <version>1.0.58.16-usDebug</version>
       <version>1.0.58.16-usRelease</version>
+      <version>1.0.59-commonDebug</version>
+      <version>1.0.59-commonRelease</version>
+      <version>1.0.59-usDebug</version>
+      <version>1.0.59-usRelease</version>
+      <version>1.0.60-commonDebug</version>
+      <version>1.0.60-usDebug</version>
+      <version>1.0.60-commonRelease</version>
+      <version>1.0.60-usRelease</version>
+      <version>1.0.61-commonDebug</version>
+      <version>1.0.61-commonRelease</version>
+      <version>1.0.61-usDebug</version>
+      <version>1.0.61-usRelease</version>
+      <version>1.0.62-commonDebug</version>
+      <version>1.0.62-usDebug</version>
+      <version>1.0.62-commonRelease</version>
+      <version>1.0.62-usRelease</version>
+      <version>1.0.63.1-commonDebug</version>
+      <version>1.0.63.1-commonRelease</version>
+      <version>1.0.63.1-usDebug</version>
+      <version>1.0.63.1-usRelease</version>
     </versions>
-    <lastUpdated>20241031083946</lastUpdated>
+    <lastUpdated>20250314121236</lastUpdated>
   </versioning>
 </metadata>
