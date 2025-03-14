@@ -3,8 +3,8 @@
   <groupId>io.carrotquest</groupId>
   <artifactId>android-sdk</artifactId>
   <versioning>
-    <latest>1.0.88.40-usRelease</latest>
-    <release>1.0.88.40-usRelease</release>
+    <latest>1.0.93.1-usDebug</latest>
+    <release>1.0.93.1-usDebug</release>
     <versions>
       <version>1.0.40-commonDebug</version>
       <version>1.0.40-commonRelease</version>
@@ -643,7 +643,27 @@
       <version>1.0.88.40-commonRelease</version>
       <version>1.0.88.40-usDebug</version>
       <version>1.0.88.40-usRelease</version>
+      <version>1.0.89-commonDebug</version>
+      <version>1.0.89-commonRelease</version>
+      <version>1.0.89-usDebug</version>
+      <version>1.0.89-usRelease</version>
+      <version>1.0.90-commonDebug</version>
+      <version>1.0.90-commonRelease</version>
+      <version>1.0.90-usDebug</version>
+      <version>1.0.90-usRelease</version>
+      <version>1.0.91-commonDebug</version>
+      <version>1.0.91-commonRelease</version>
+      <version>1.0.91-usDebug</version>
+      <version>1.0.91-usRelease</version>
+      <version>1.0.92-commonDebug</version>
+      <version>1.0.92-commonRelease</version>
+      <version>1.0.92-usDebug</version>
+      <version>1.0.92-usRelease</version>
+      <version>1.0.93.1-commonDebug</version>
+      <version>1.0.93.1-commonRelease</version>
+      <version>1.0.93.1-usRelease</version>
+      <version>1.0.93.1-usDebug</version>
     </versions>
-    <lastUpdated>20241102114121</lastUpdated>
+    <lastUpdated>20250314122946</lastUpdated>
   </versioning>
 </metadata>
